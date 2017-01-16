@@ -12,7 +12,7 @@ public class GunController : MonoBehaviour
         {
             GameObject paintball = Instantiate(paintballPrefab);
             paintball.transform.position = transform.FindChild("Spawn Point").position;
-            paintball.GetComponent<Rigidbody>().AddForce(transform.up * shootForce);
+            paintball.GetComponent<Rigidbody>().AddForce(-transform.right * shootForce);
             Destroy(paintball, 2f);
         }
     }
