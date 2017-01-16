@@ -5,12 +5,13 @@ using System.Collections;
 
 public class NetworkPlayer : NetworkBehaviour {
 
+    public Camera cam;
     // Use this for initialization
     void Start () {
 	    if(isLocalPlayer)
         {
             GetComponent<FirstPersonController>().enabled = true;
-            GetComponentInChildren<Camera>().enabled = true;
+            cam.enabled = true;
             GetComponentInChildren<AudioListener>().enabled = true;
         }
 	}
