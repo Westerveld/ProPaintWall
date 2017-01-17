@@ -11,7 +11,7 @@ public class NetworkPlayer : NetworkBehaviour {
     void Start () {
 	    if(isLocalPlayer)
         {
-            GetComponent<FirstPersonController>().enabled = true;
+            GetComponent<FPSController>().enabled = true;
             cam.enabled = true;
             audioListener.enabled = true;
             GetComponent<PlayerManager>().enabled = true;
