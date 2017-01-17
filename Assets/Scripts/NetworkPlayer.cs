@@ -14,11 +14,8 @@ public class NetworkPlayer : NetworkBehaviour {
             GetComponent<FirstPersonController>().enabled = true;
             cam.enabled = true;
             audioListener.enabled = true;
+            GetComponent<PlayerManager>().enabled = true;
         }
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
