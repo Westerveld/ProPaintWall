@@ -27,6 +27,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+        [SerializeField] private float crouchModifier;
 
         public Camera m_Camera;
         private bool m_Jump;
@@ -41,6 +42,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private float startingHeight;
 
         // Use this for initialization
         private void Start()
@@ -54,6 +56,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            startingHeight = m_CharacterController.height;
         }
 
 
@@ -130,6 +133,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             UpdateCameraPosition(speed);
 
             m_MouseLook.UpdateCursorLock();
+
+            if (CrossPlatformInputManager.GetButton("Crouch") && (m_CharacterController.isGrounded || m_CharacterController.velocity.y < 0f))
+            {
+                m_CharacterController.height = startingHeight / crouchModifier;
+                m_IsWalking = false;
+            }
+            else
+            {
+                m_CharacterController.height = startingHeight;
+            }
         }
 
 
@@ -211,7 +224,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 #if !MOBILE_INPUT
             // On standalone builds, walk/run speed is modified by a key press.
             // keep track of whether or not the character is walking or running
-            m_IsWalking = !Input.GetKey(KeyCode.LeftShift);
+            m_IsWalking = !CrossPlatformInputManager.GetButton("Sprint") || CrossPlatformInputManager.GetButton("Crouch");
 #endif
             // set the desired speed to be walking or running
             speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;
