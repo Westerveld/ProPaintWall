@@ -11,6 +11,7 @@ public class FPSController : NetworkBehaviour
     public AudioListener audioListener;
     public float maximumSlopeAngle;
     public Vector2 lookSensitivity;
+    public Vector2 gamepadLookSensitivity;
     public float crouchModifier;
     [SyncVar]
     public bool crouching = false;
@@ -58,7 +59,9 @@ public class FPSController : NetworkBehaviour
             rigidBody.velocity = newVelocity;
 
             firstPersonCamera.transform.Rotate(Vector3.left * CrossPlatformInputManager.GetAxis("LookVertical") * lookSensitivity.y * Time.deltaTime);
+            firstPersonCamera.transform.Rotate(Vector3.right * CrossPlatformInputManager.GetAxis("GamePadLookVertical") * gamepadLookSensitivity.y * lookSensitivity.y * Time.deltaTime);
             transform.Rotate(Vector3.up * CrossPlatformInputManager.GetAxis("LookHorizontal") * lookSensitivity.x * Time.deltaTime);
+            transform.Rotate(Vector3.up * CrossPlatformInputManager.GetAxis("GamePadLookHorizontal") * gamepadLookSensitivity.x * lookSensitivity.x * Time.deltaTime);
 
             if (CrossPlatformInputManager.GetButton("Crouch") && (grounded || rigidBody.velocity.y < 0f))
             {

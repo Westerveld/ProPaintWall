@@ -2694,6 +2694,7 @@ MonoBehaviour:
   audioListener: {fileID: 81000013466591522}
   maximumSlopeAngle: 45
   lookSensitivity: {x: 5, y: 5}
+  gamepadLookSensitivity: {x: 20, y: 15}
   crouchModifier: 2
   crouching: 0
 --- !u!114 &114000011217646696
