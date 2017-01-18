@@ -28,7 +28,9 @@ public class FPSController : NetworkBehaviour
         {
             firstPersonCamera.enabled = true;
             audioListener.enabled = true;
+            GetComponent<PlayerManager>().enabled = true;
         }
+
         rigidBody = GetComponent<Rigidbody>();
         capsuleHeight = GetComponent<CapsuleCollider>().height;
         characterScale = transform.FindChild("Ethan").localScale;

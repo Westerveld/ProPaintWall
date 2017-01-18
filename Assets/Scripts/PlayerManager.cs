@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
-using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerManager : MonoBehaviour {
 
@@ -18,11 +16,11 @@ public class PlayerManager : MonoBehaviour {
         }
         if(pm.paused)
         {
-            GetComponent<FirstPersonController>().enabled = false;
+            GetComponent<FPSController>().enabled = false;
         }
         else
         {
-            GetComponent<FirstPersonController>().enabled = true;
+            GetComponent<FPSController>().enabled = true;
         }
 	}
 }
