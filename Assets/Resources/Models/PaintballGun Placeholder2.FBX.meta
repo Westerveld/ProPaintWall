@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: 0b7511cbc66696447a8d57a155f805d6
+guid: e346ca332792e2745bb55d31ddb26ccc
+timeCreated: 1484737899
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -77,11 +79,11 @@ ModelImporter:
     4300014: Cylinder003
     4300016: Cylinder004
     4300018: Box008
-    4300020: Sphere001
+    4300020: Cylinder006
     4300022: Cylinder005
     4300024: Box009
-    4300026: Cylinder006
-    4300028: Box010
+    4300026: Box010
+    4300028: Sphere001
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -108,7 +110,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

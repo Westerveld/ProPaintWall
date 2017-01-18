@@ -839,7 +839,6 @@ GameObject:
   - 82: {fileID: 82000014017387936}
   - 114: {fileID: 114000011217646696}
   - 114: {fileID: 114000013656831460}
-  - 114: {fileID: 114000013255955754}
   - 114: {fileID: 114000010772862792}
   - 136: {fileID: 136000013217616064}
   - 135: {fileID: 135000011131136944}
@@ -1752,7 +1751,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013886628144}
-  m_LocalRotation: {x: 0.5326752, y: 0.070340455, z: 0.83613276, w: -0.110415146}
+  m_LocalRotation: {x: 0.53267515, y: 0.07034045, z: 0.83613265, w: -0.11041513}
   m_LocalPosition: {x: 0.000022271464, y: -0.00006150465, z: 0.026027026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2671,17 +2670,20 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012777310582}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f92f6cab07f53d4f9fd811d9b18c379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 8
   sprintModifier: 2
   jumpSpeed: 5
   firstPersonCamera: {fileID: 20000013156299108}
+  audioListener: {fileID: 81000013466591522}
   maximumSlopeAngle: 45
   lookSensitivity: {x: 5, y: 5}
+  crouchModifier: 2
+  crouching: 0
 --- !u!114 &114000011217646696
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2714,19 +2716,6 @@ MonoBehaviour:
     i15: 127
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &114000013255955754
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012777310582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34f20ffa576d7a145994e507e739e5ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 20000013156299108}
-  audioListener: {fileID: 81000013466591522}
 --- !u!114 &114000013656831460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2765,7 +2754,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.3
-  m_Center: {x: 0, y: -0.6, z: 0}
+  m_Center: {x: 0, y: -0.65, z: 0}
 --- !u!136 &136000013217616064
 CapsuleCollider:
   m_ObjectHideFlags: 1
