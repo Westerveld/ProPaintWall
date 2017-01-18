@@ -19,7 +19,8 @@ public class FPSController : NetworkBehaviour
     private bool grounded = false;
     private Vector3 collisionNormal = Vector3.up;
     private float capsuleHeight;
-    private float spherePosition;
+    private Vector3 characterScale;
+    private float cameraPosition;
 
     void Start()
     {
@@ -30,7 +31,8 @@ public class FPSController : NetworkBehaviour
         }
         rigidBody = GetComponent<Rigidbody>();
         capsuleHeight = GetComponent<CapsuleCollider>().height;
-        spherePosition = GetComponent<SphereCollider>().center.y;
+        characterScale = transform.FindChild("Ethan").localScale;
+        cameraPosition = firstPersonCamera.transform.localPosition.y + capsuleHeight / 2f;
     }
 
     void FixedUpdate()
@@ -73,16 +75,24 @@ public class FPSController : NetworkBehaviour
         if (crouching)
         {
             GetComponent<CapsuleCollider>().height = capsuleHeight / crouchModifier;
-            GetComponent<SphereCollider>().center = new Vector3(GetComponent<SphereCollider>().center.x,
-                                                                spherePosition / crouchModifier,
-                                                                GetComponent<SphereCollider>().center.z);
+            GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
+                                                                 -(capsuleHeight / 2f) / crouchModifier,
+                                                                 GetComponent<CapsuleCollider>().center.z);
+            transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y / crouchModifier, characterScale.z);
+            firstPersonCamera.transform.localPosition = new Vector3(firstPersonCamera.transform.localPosition.x,
+                                                                    (cameraPosition / crouchModifier) - (capsuleHeight / 2f),
+                                                                    firstPersonCamera.transform.localPosition.z);
         }
         else
         {
             GetComponent<CapsuleCollider>().height = capsuleHeight;
-            GetComponent<SphereCollider>().center = new Vector3(GetComponent<SphereCollider>().center.x,
-                                                                spherePosition,
-                                                                GetComponent<SphereCollider>().center.z);
+            GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
+                                                                 0f,
+                                                                 GetComponent<CapsuleCollider>().center.z);
+            transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y, characterScale.z);
+            firstPersonCamera.transform.localPosition = new Vector3(firstPersonCamera.transform.localPosition.x,
+                                                                    cameraPosition - (capsuleHeight / 2f),
+                                                                    firstPersonCamera.transform.localPosition.z);
         }
     }
 
