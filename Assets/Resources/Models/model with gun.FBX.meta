@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: 385ddde2b163fb441922b81cc800f3d5
+timeCreated: 1484743464
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Boneend leg l
+    100002: Boneend leg l001
+    100004: Box001
+    100006: Box002
+    100008: Box004
+    100010: Box005
+    100012: Box006
+    100014: Box007
+    100016: Box008
+    100018: Box009
+    100020: Box010
+    100022: Circle001
+    100024: Circle002
+    100026: Controller Foot l
+    100028: Controller Foot l001
+    100030: Controller LegRotation l
+    100032: Controller LegRotation l001
+    100034: Cylinder001
+    100036: Cylinder002
+    100038: Cylinder003
+    100040: Cylinder004
+    100042: Cylinder005
+    100044: Cylinder006
+    100046: End Right 2ndfin
+    100048: End Right 2ndfin001
+    100050: End Right 3rdfin
+    100052: End Right 3rdfin001
+    100054: End Right 4thfin
+    100056: End Right 4thfin001
+    100058: End thumb right
+    100060: End thumb right001
+    100062: endtroso
+    100064: Eye
+    100066: gun
+    100068: gun 1
+    100070: Head
+    100072: Helmet
+    100074: IK Chain arm
+    100076: IK Chain arm001
+    100078: IK Chain heel l
+    100080: IK Chain heel l001
+    100082: IK Chain leg l
+    100084: IK Chain leg l001
+    100086: IK Chain toe l
+    100088: IK Chain toe l001
+    100090: IK Chain001
+    100092: IK Chain002
+    100094: IK Chain003
+    100096: IK Chain004
+    100098: IK Chain005
+    100100: IK Chain006
+    100102: IK Chain007
+    100104: IK Chain008
+    100106: IK Chain009
+    100108: IK Chain010
+    100110: l_Sole_b_legl
+    100112: l_Sole_b_legl001
+    100114: l_Toe_b_legl
+    100116: l_Toe_b_legl001
+    100118: l_upperleg_b_l
+    100120: l_upperleg_b_l001
+    100122: Leg
+    100124: ll_owerleg_b_l
+    100126: ll_owerleg_b_l001
+    100128: //RootNode
+    100130: Neck
+    100132: Other Eye
+    100134: OtherLeg
+    100136: Point001
+    100138: Rig_Ankle
+    100140: Rig_Ankle001
+    100142: Rig_foot
+    100144: Rig_foot001
+    100146: Rig_Heel
+    100148: Rig_Heel001
+    100150: Rig_Knee
+    100152: Rig_Knee001
+    100154: Rig_Toe
+    100156: Rig_Toe001
+    100158: Right Arm
+    100160: Right Arm001
+    100162: RightArm bone 2ndfinbot
+    100164: RightArm bone 2ndfinbot001
+    100166: RightArm bone 2ndfintop
+    100168: RightArm bone 2ndfintop001
+    100170: RightArm bone 3rdfinbot
+    100172: RightArm bone 3rdfinbot001
+    100174: RightArm bone 3rdfintop
+    100176: RightArm bone 3rdfintop001
+    100178: RightArm bone 4thfinbot
+    100180: RightArm bone 4thfinbot001
+    100182: RightArm bone 4thfintop
+    100184: RightArm bone 4thfintop001
+    100186: RightArm bone bottom
+    100188: RightArm bone bottom001
+    100190: RightArm bone thumbbot
+    100192: RightArm bone thumbbot001
+    100194: RightArm bone thumbtop
+    100196: RightArm bone thumbtop001
+    100198: RightArm bone top
+    100200: RightArm bone top001
+    100202: Sphere001
+    100204: Torso
+    100206: torsobot
+    100208: torsotop
+    400000: Boneend leg l
+    400002: Boneend leg l001
+    400004: Box001
+    400006: Box002
+    400008: Box004
+    400010: Box005
+    400012: Box006
+    400014: Box007
+    400016: Box008
+    400018: Box009
+    400020: Box010
+    400022: Circle001
+    400024: Circle002
+    400026: Controller Foot l
+    400028: Controller Foot l001
+    400030: Controller LegRotation l
+    400032: Controller LegRotation l001
+    400034: Cylinder001
+    400036: Cylinder002
+    400038: Cylinder003
+    400040: Cylinder004
+    400042: Cylinder005
+    400044: Cylinder006
+    400046: End Right 2ndfin
+    400048: End Right 2ndfin001
+    400050: End Right 3rdfin
+    400052: End Right 3rdfin001
+    400054: End Right 4thfin
+    400056: End Right 4thfin001
+    400058: End thumb right
+    400060: End thumb right001
+    400062: endtroso
+    400064: Eye
+    400066: gun
+    400068: gun 1
+    400070: Head
+    400072: Helmet
+    400074: IK Chain arm
+    400076: IK Chain arm001
+    400078: IK Chain heel l
+    400080: IK Chain heel l001
+    400082: IK Chain leg l
+    400084: IK Chain leg l001
+    400086: IK Chain toe l
+    400088: IK Chain toe l001
+    400090: IK Chain001
+    400092: IK Chain002
+    400094: IK Chain003
+    400096: IK Chain004
+    400098: IK Chain005
+    400100: IK Chain006
+    400102: IK Chain007
+    400104: IK Chain008
+    400106: IK Chain009
+    400108: IK Chain010
+    400110: l_Sole_b_legl
+    400112: l_Sole_b_legl001
+    400114: l_Toe_b_legl
+    400116: l_Toe_b_legl001
+    400118: l_upperleg_b_l
+    400120: l_upperleg_b_l001
+    400122: Leg
+    400124: ll_owerleg_b_l
+    400126: ll_owerleg_b_l001
+    400128: //RootNode
+    400130: Neck
+    400132: Other Eye
+    400134: OtherLeg
+    400136: Point001
+    400138: Rig_Ankle
+    400140: Rig_Ankle001
+    400142: Rig_foot
+    400144: Rig_foot001
+    400146: Rig_Heel
+    400148: Rig_Heel001
+    400150: Rig_Knee
+    400152: Rig_Knee001
+    400154: Rig_Toe
+    400156: Rig_Toe001
+    400158: Right Arm
+    400160: Right Arm001
+    400162: RightArm bone 2ndfinbot
+    400164: RightArm bone 2ndfinbot001
+    400166: RightArm bone 2ndfintop
+    400168: RightArm bone 2ndfintop001
+    400170: RightArm bone 3rdfinbot
+    400172: RightArm bone 3rdfinbot001
+    400174: RightArm bone 3rdfintop
+    400176: RightArm bone 3rdfintop001
+    400178: RightArm bone 4thfinbot
+    400180: RightArm bone 4thfinbot001
+    400182: RightArm bone 4thfintop
+    400184: RightArm bone 4thfintop001
+    400186: RightArm bone bottom
+    400188: RightArm bone bottom001
+    400190: RightArm bone thumbbot
+    400192: RightArm bone thumbbot001
+    400194: RightArm bone thumbtop
+    400196: RightArm bone thumbtop001
+    400198: RightArm bone top
+    400200: RightArm bone top001
+    400202: Sphere001
+    400204: Torso
+    400206: torsobot
+    400208: torsotop
+    2300000: Box001
+    2300002: Box002
+    2300004: Box004
+    2300006: Box005
+    2300008: Box006
+    2300010: Box008
+    2300012: Box009
+    2300014: Box010
+    2300016: Cylinder001
+    2300018: Cylinder002
+    2300020: Cylinder003
+    2300022: Cylinder004
+    2300024: Cylinder005
+    2300026: Cylinder006
+    2300028: Eye
+    2300030: Head
+    2300032: Helmet
+    2300034: Neck
+    2300036: Other Eye
+    2300038: Sphere001
+    3300000: Box001
+    3300002: Box002
+    3300004: Box004
+    3300006: Box005
+    3300008: Box006
+    3300010: Box008
+    3300012: Box009
+    3300014: Box010
+    3300016: Cylinder001
+    3300018: Cylinder002
+    3300020: Cylinder003
+    3300022: Cylinder004
+    3300024: Cylinder005
+    3300026: Cylinder006
+    3300028: Eye
+    3300030: Head
+    3300032: Helmet
+    3300034: Neck
+    3300036: Other Eye
+    3300038: Sphere001
+    4300000: Torso
+    4300002: Right Arm001
+    4300004: Right Arm
+    4300006: Neck
+    4300008: Head
+    4300010: Helmet
+    4300012: Other Eye
+    4300014: Eye
+    4300016: OtherLeg
+    4300018: Leg
+    4300020: Box001
+    4300022: Box002
+    4300024: Box004
+    4300026: Box005
+    4300028: Box006
+    4300030: Box008
+    4300032: Box009
+    4300034: Box010
+    4300036: Cylinder001
+    4300038: Cylinder002
+    4300040: Cylinder003
+    4300042: Cylinder004
+    4300044: Cylinder005
+    4300046: Cylinder006
+    4300048: Sphere001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Leg
+    13700002: OtherLeg
+    13700004: Right Arm
+    13700006: Right Arm001
+    13700008: Torso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
