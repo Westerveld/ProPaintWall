@@ -1,19 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
-
-public class GunController : MonoBehaviour
+using UnityEngine.Networking;
+public class GunController : NetworkBehaviour
 {
     public GameObject paintballPrefab;
-    public float shootForce;
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            GameObject paintball = Instantiate(paintballPrefab);
-            paintball.transform.position = transform.FindChild("Spawn Point").position;
-            paintball.GetComponent<Rigidbody>().AddForce(-transform.right * shootForce);
-            Destroy(paintball, 2f);
-        }
+       
+            if (Input.GetButtonDown("Fire1"))
+            {
+                print("Fire");
+                CmdFirePaintBall();
+            }
+        
+
+    }
+
+   [Command]
+    void CmdFirePaintBall()
+    {
+        print("CMDFIre");
+        GameObject go =  (GameObject)Instantiate(paintballPrefab, transform.FindChild("Spawn Point").position, Quaternion.identity);
+        NetworkServer.Spawn(go);
     }
 }
