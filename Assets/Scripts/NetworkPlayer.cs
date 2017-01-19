@@ -2,27 +2,26 @@
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityEngine.Networking;
 using System.Collections;
-
 public class NetworkPlayer : NetworkBehaviour
 {
-    public Camera cam;
-    public AudioListener audioListener;
+    Camera cam;
+    AudioListener audioListener;
     FPSController fpsController;
     bool teamSelect = true;
-
+    TextMesh tm;
+    [SyncVar]
+    Team team;
+    [SyncVar]
+    string playerName;
     // Use this for initialization
     void Start()
     {
         cam = GameObject.FindGameObjectWithTag("Lobby").GetComponent<Camera>();
-        /*
-	    if(isLocalPlayer)
+     tm = gameObject.GetComponentInChildren<TextMesh>();
+        if (isLocalPlayer)
         {
-            GetComponent<FPSController>().enabled = true;
-            cam.enabled = true;
-            audioListener.enabled = true;
-            //GetComponent<PlayerManager>().enabled = true;
+            cam.GetComponent<LobbyUISetup>().localPlayer = this;
         }
-        */
     }
 
     void Update()
@@ -44,6 +43,25 @@ public class NetworkPlayer : NetworkBehaviour
         {
             teamSelect = !teamSelect;
         }
+
+
+        tm.text = playerName;
+
+    }
+
+
+    [Command]
+   public void CmdUpdateTeam(Team t)
+    {
+        this.team = t;
+        
+    }
+
+    [Command]
+    public void CmdUpdateName(string n)
+    {
+        this.playerName = n;
+       
     }
 
 }
