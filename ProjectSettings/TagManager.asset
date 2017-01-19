@@ -6,6 +6,9 @@ TagManager:
   tags:
   - POM
   - Paintable
+  - GM
+  - NM
+  - Lobby
   layers:
   - Default
   - TransparentFX

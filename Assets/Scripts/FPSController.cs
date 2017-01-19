@@ -22,7 +22,7 @@ public class FPSController : NetworkBehaviour
     private float capsuleHeight;
     private Vector3 characterScale;
     private float cameraPosition;
-
+    
     void Start()
     {
         if (isLocalPlayer)
@@ -36,10 +36,12 @@ public class FPSController : NetworkBehaviour
         capsuleHeight = GetComponent<CapsuleCollider>().height;
         characterScale = transform.FindChild("Ethan").localScale;
         cameraPosition = firstPersonCamera.transform.localPosition.y + capsuleHeight / 2f;
+
     }
 
     void FixedUpdate()
     {
+
         if (isLocalPlayer)
         {
             Vector3 moveVelocity = transform.forward * CrossPlatformInputManager.GetAxis("Vertical") +
@@ -99,6 +101,7 @@ public class FPSController : NetworkBehaviour
                                                                     cameraPosition - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
         }
+
     }
 
     void OnCollisionStay(Collision collision)
