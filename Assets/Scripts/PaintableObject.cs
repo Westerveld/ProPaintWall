@@ -45,8 +45,8 @@ class TeamScores
 public class PaintableObject : MonoBehaviour {
 
    public Team teamInControl = Team.NoTeam; //The current team in control of this object. ie who has it painted. 
-    int maxPaintWeight = 100;
-    int targetPaintWeight = 50;
+    public int maxPaintWeight = 100;
+    public int targetPaintWeight = 50;
     TeamScores[] teamScores = new TeamScores[4] { new TeamScores(Team.RedTeam), new TeamScores(Team.GreenTeam), new TeamScores(Team.BlueTeam), new TeamScores(Team.YellowTeam) } ;
     PaintableObjectManager pom; // Instance of PaintableObjectManager.
     //<Testing>
