@@ -36,7 +36,6 @@ public class FPSController : NetworkBehaviour
 
         rigidBody = GetComponent<Rigidbody>();
         capsuleHeight = GetComponent<CapsuleCollider>().height;
-        //characterScale = transform.FindChild("Ethan").localScale;
         cameraPosition = firstPersonCamera.transform.localPosition.y + capsuleHeight / 2f;
         gun = GetComponent<GunController>();
     }
@@ -46,12 +45,14 @@ public class FPSController : NetworkBehaviour
 
         if (isLocalPlayer)
         {
+            GroundCheck();
+
             Vector3 moveVelocity = transform.forward * CrossPlatformInputManager.GetAxis("Vertical") +
                                transform.right * CrossPlatformInputManager.GetAxis("Horizontal");
             moveVelocity = Vector3.ProjectOnPlane(moveVelocity, collisionNormal);
             moveVelocity *= moveSpeed * (CrossPlatformInputManager.GetButton("Sprint") ? sprintModifier : 1f);
 
-            GetComponent<Animator>().SetFloat("Speed", moveVelocity.magnitude);
+            transform.FindChild("Model").GetComponent<Animator>().SetFloat("Speed", moveVelocity.magnitude);
 
             Vector3 newVelocity = rigidBody.velocity;
             newVelocity.x = moveVelocity.x;
@@ -60,7 +61,7 @@ public class FPSController : NetworkBehaviour
             if (CrossPlatformInputManager.GetButtonDown("Jump") && grounded)
             {
                 newVelocity.y = jumpSpeed;
-                GetComponent<Animator>().SetTrigger("Jump");
+                transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Jump");
             }
 
             rigidBody.velocity = newVelocity;
@@ -80,18 +81,15 @@ public class FPSController : NetworkBehaviour
                 crouching = false;
                 CmdSetCrouch(crouching);
             }
-            GetComponent<Animator>().SetBool("Crouching", crouching);
-
-            grounded = false;
+            transform.FindChild("Model").GetComponent<Animator>().SetBool("Crouching", crouching);
         }
 
         if (crouching)
         {
             GetComponent<CapsuleCollider>().height = capsuleHeight / crouchModifier;
             GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
-                                                                 -(capsuleHeight / 2f) / crouchModifier,
+                                                                 ((capsuleHeight / crouchModifier) - capsuleHeight) / 2f,
                                                                  GetComponent<CapsuleCollider>().center.z);
-            //transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y / crouchModifier, characterScale.z);
             firstPersonCamera.transform.localPosition = new Vector3(firstPersonCamera.transform.localPosition.x,
                                                                     (cameraPosition / crouchModifier) - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
@@ -102,7 +100,6 @@ public class FPSController : NetworkBehaviour
             GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
                                                                  0f,
                                                                  GetComponent<CapsuleCollider>().center.z);
-            //transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y, characterScale.z);
             firstPersonCamera.transform.localPosition = new Vector3(firstPersonCamera.transform.localPosition.x,
                                                                     cameraPosition - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
@@ -110,20 +107,20 @@ public class FPSController : NetworkBehaviour
 
     }
 
-    void OnCollisionStay(Collision collision)
-    {
-        if (isLocalPlayer)
-        {
-            foreach (ContactPoint point in collision.contacts)
-            {
-                if (point.thisCollider == GetComponent<SphereCollider>() && point.normal.y > (Quaternion.Euler(maximumSlopeAngle, 0f, 0f) * Vector3.forward).y)
-                {
-                    grounded = true;
-                    collisionNormal = point.normal;
-                }
-            }
-        }
-    }
+    //void OnCollisionStay(Collision collision)
+    //{
+    //    if (isLocalPlayer)
+    //    {
+    //        foreach (ContactPoint point in collision.contacts)
+    //        {
+    //            if (point.thisCollider == GetComponent<SphereCollider>() && point.normal.y > (Quaternion.Euler(maximumSlopeAngle, 0f, 0f) * Vector3.forward).y)
+    //            {
+    //                grounded = true;
+    //                collisionNormal = point.normal;
+    //            }
+    //        }
+    //    }
+    //}
 
     void OnApplicationFocus(bool focus)
     {
@@ -158,8 +155,26 @@ public class FPSController : NetworkBehaviour
             {
                 print("Reloading");
                 gun.AmmoRefill();
-                GetComponent<Animator>().SetTrigger("Reload");
+                transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Reload");
             }
+        }
+    }
+
+    void GroundCheck()
+    {
+        RaycastHit hitInfo;
+        if(Physics.SphereCast(transform.position, GetComponent<CapsuleCollider>().radius - 0.01f, Vector3.down, out hitInfo,
+                              (GetComponent<CapsuleCollider>().height / 2f) - GetComponent<CapsuleCollider>().radius + 0.02f,
+                              ~(Physics.AllLayers & (1 << LayerMask.NameToLayer("Player"))),
+                              QueryTriggerInteraction.Ignore) && hitInfo.normal.y > (Quaternion.Euler(maximumSlopeAngle, 0f, 0f) * Vector3.forward).y)
+        {
+            grounded = true;
+            collisionNormal = hitInfo.normal;
+            Debug.Log(hitInfo.transform.name);
+        }
+        else
+        {
+            grounded = false;
         }
     }
 }
