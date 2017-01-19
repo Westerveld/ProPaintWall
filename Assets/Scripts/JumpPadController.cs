@@ -2,7 +2,7 @@
 
 public class JumpPadController : MonoBehaviour
 {
-    [SerializeField] private Vector3 jumpVelocity;
+    public Vector3 jumpVelocity;
 
     void OnCollisionEnter(Collision collision)
     {
