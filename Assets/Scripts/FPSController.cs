@@ -24,6 +24,9 @@ public class FPSController : NetworkBehaviour
     private Vector3 characterScale;
     private float cameraPosition;
     private GunController gun;
+
+    int health;
+    int respawnTime;
     
     void Awake()
     {
