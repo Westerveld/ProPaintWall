@@ -7,7 +7,9 @@ public class NetworkPlayer : NetworkBehaviour
     Camera cam;
     AudioListener audioListener;
     FPSController fpsController;
-    bool teamSelect = true;
+    
+    bool inGame = false;
+
     TextMesh tm;
     [SyncVar]
     Team team;
@@ -26,25 +28,37 @@ public class NetworkPlayer : NetworkBehaviour
 
     void Update()
     {
-        if (teamSelect)
+        if (inGame)
         {
-            GetComponent<FPSController>().enabled = false;
-            cam.enabled = true;
-            GetComponent<FPSController>().firstPersonCamera.enabled = false;
+            GetComponent<FPSController>().enabled = true;
+
+            if (isLocalPlayer)
+            {
+                cam.enabled = false;
+                GetComponent<FPSController>().firstPersonCamera.enabled = true;
+                GetComponent<GunController>().enabled = true;
+                GetComponent<PlayerManager>().enabled = true;
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+
+
         }
         else
         {
-            GetComponent<FPSController>().enabled = true;
-            cam.enabled = false;
-            GetComponent<FPSController>().firstPersonCamera.enabled = true;
+
+            GetComponent<FPSController>().enabled = false;
+
+            if (isLocalPlayer)
+            {
+                cam.enabled = true;
+                GetComponent<FPSController>().firstPersonCamera.enabled = false;
+                GetComponent<GunController>().enabled = false;
+                GetComponent<PlayerManager>().enabled = false;
+                Cursor.lockState = CursorLockMode.None;
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            teamSelect = !teamSelect;
-        }
-
-
+        Begin();
         tm.text = playerName;
 
     }
@@ -63,5 +77,12 @@ public class NetworkPlayer : NetworkBehaviour
         this.playerName = n;
        
     }
-
+   
+    void Begin()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            inGame = !inGame;
+        }
+    }
 }
