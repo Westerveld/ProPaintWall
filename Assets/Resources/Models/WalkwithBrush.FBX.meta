@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: e43cea2b45ef511479ebe3cb33fe9be6
+timeCreated: 1484831631
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Boneend leg l
+    100002: Boneend leg l001
+    100004: chest
+    100006: Controller Left Foot
+    100008: Controller Right Foot
+    100010: Cylinder001
+    100012: gun
+    100014: gun 1
+    100016: Head
+    100018: Helmet
+    100020: hips
+    100022: IK Chain heel l
+    100024: IK Chain heel l001
+    100026: IK Chain leg l
+    100028: IK Chain leg l001
+    100030: IK Chain toe l
+    100032: IK Chain toe l001
+    100034: IK Chest
+    100036: l_Sole_b_legl
+    100038: l_Sole_b_legl001
+    100040: l_Toe_b_legl
+    100042: l_Toe_b_legl001
+    100044: Left Arm
+    100046: Left Arm001
+    100048: Left Eye
+    100050: Left Hand 004
+    100052: Left Hand 005
+    100054: Left Hand 006
+    100056: Left Hand 1
+    100058: Left Hand 1 Lower
+    100060: Left Hand 1 Lowest
+    100062: Left Hand 1 Lowest001
+    100064: Left Hand 2
+    100066: Left Hand 2 Lower
+    100068: Left Hand 2 Lower001
+    100070: Left Hand 2 Lowest
+    100072: Left Hand 2 Lowest001
+    100074: Left Hand 3
+    100076: Left Hand 3 Lower
+    100078: Left Hand 3 Lower001
+    100080: Left Hand 3 Lowest
+    100082: Left Hand 3 Lowest001
+    100084: Left Hand Thumb
+    100086: Left Hand Thumb Lower
+    100088: Left Hand Thumb Lowest
+    100090: Left Hand Thumb Lowest001
+    100092: Left Hand Thumb001
+    100094: Left Leg
+    100096: Left Lower Arm
+    100098: Left Lower Leg
+    100100: Left Upper Arm
+    100102: Left Upper Leg
+    100104: Neck
+    100106: Rig_Ankle
+    100108: Rig_Ankle001
+    100110: Rig_foot
+    100112: Rig_foot001
+    100114: Rig_Heel
+    100116: Rig_Heel001
+    100118: Rig_Toe
+    100120: Rig_Toe001
+    100122: Right Eye
+    100124: Right Hand 1 Lower
+    100126: Right Hand Thumb Lower
+    100128: Right Leg
+    100130: Right Lower Arm
+    100132: Right Lower Leg
+    100134: Right Upper Arm
+    100136: Right Upper Leg
+    100138: spine
+    100140: Torso
+    100142: //RootNode
+    400000: Boneend leg l
+    400002: Boneend leg l001
+    400004: chest
+    400006: Controller Left Foot
+    400008: Controller Right Foot
+    400010: Cylinder001
+    400012: gun
+    400014: gun 1
+    400016: Head
+    400018: Helmet
+    400020: hips
+    400022: IK Chain heel l
+    400024: IK Chain heel l001
+    400026: IK Chain leg l
+    400028: IK Chain leg l001
+    400030: IK Chain toe l
+    400032: IK Chain toe l001
+    400034: IK Chest
+    400036: l_Sole_b_legl
+    400038: l_Sole_b_legl001
+    400040: l_Toe_b_legl
+    400042: l_Toe_b_legl001
+    400044: Left Arm
+    400046: Left Arm001
+    400048: Left Eye
+    400050: Left Hand 004
+    400052: Left Hand 005
+    400054: Left Hand 006
+    400056: Left Hand 1
+    400058: Left Hand 1 Lower
+    400060: Left Hand 1 Lowest
+    400062: Left Hand 1 Lowest001
+    400064: Left Hand 2
+    400066: Left Hand 2 Lower
+    400068: Left Hand 2 Lower001
+    400070: Left Hand 2 Lowest
+    400072: Left Hand 2 Lowest001
+    400074: Left Hand 3
+    400076: Left Hand 3 Lower
+    400078: Left Hand 3 Lower001
+    400080: Left Hand 3 Lowest
+    400082: Left Hand 3 Lowest001
+    400084: Left Hand Thumb
+    400086: Left Hand Thumb Lower
+    400088: Left Hand Thumb Lowest
+    400090: Left Hand Thumb Lowest001
+    400092: Left Hand Thumb001
+    400094: Left Leg
+    400096: Left Lower Arm
+    400098: Left Lower Leg
+    400100: Left Upper Arm
+    400102: Left Upper Leg
+    400104: Neck
+    400106: Rig_Ankle
+    400108: Rig_Ankle001
+    400110: Rig_foot
+    400112: Rig_foot001
+    400114: Rig_Heel
+    400116: Rig_Heel001
+    400118: Rig_Toe
+    400120: Rig_Toe001
+    400122: Right Eye
+    400124: Right Hand 1 Lower
+    400126: Right Hand Thumb Lower
+    400128: Right Leg
+    400130: Right Lower Arm
+    400132: Right Lower Leg
+    400134: Right Upper Arm
+    400136: Right Upper Leg
+    400138: spine
+    400140: Torso
+    400142: //RootNode
+    2300000: Cylinder001
+    2300002: Head
+    2300004: Helmet
+    2300006: Left Eye
+    2300008: Neck
+    2300010: Right Eye
+    3300000: Cylinder001
+    3300002: Head
+    3300004: Helmet
+    3300006: Left Eye
+    3300008: Neck
+    3300010: Right Eye
+    4300000: Torso
+    4300002: Left Leg
+    4300004: Right Leg
+    4300006: Left Arm
+    4300008: Neck
+    4300010: Head
+    4300012: Helmet
+    4300014: Right Eye
+    4300016: Left Eye
+    4300018: Left Arm001
+    4300020: Cylinder001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Left Arm
+    13700002: Left Arm001
+    13700004: Left Leg
+    13700006: Right Leg
+    13700008: Torso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
