@@ -240,6 +240,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1000010596309288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010353357818}
+  m_Layer: 0
+  m_Name: Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1000010745834670
 GameObject:
   m_ObjectHideFlags: 1
@@ -843,6 +858,7 @@ GameObject:
   - 136: {fileID: 136000013217616064}
   - 135: {fileID: 135000011131136944}
   - 114: {fileID: 114000010026882804}
+  - 114: {fileID: 114000013449821776}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1398,6 +1414,19 @@ Transform:
   - {fileID: 4000010579841108}
   m_Father: {fileID: 4000011014753014}
   m_RootOrder: 3
+--- !u!4 &4000010353357818
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010596309288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.735, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000013771220624}
+  m_RootOrder: 2
 --- !u!4 &4000010367417572
 Transform:
   m_ObjectHideFlags: 1
@@ -1752,7 +1781,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013886628144}
-  m_LocalRotation: {x: 0.5326752, y: 0.070340455, z: 0.83613276, w: -0.110415146}
+  m_LocalRotation: {x: 0.53267515, y: 0.07034045, z: 0.83613265, w: -0.11041513}
   m_LocalPosition: {x: 0.000022271464, y: -0.00006150465, z: 0.026027026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2356,6 +2385,7 @@ Transform:
   m_Children:
   - {fileID: 4000013232860176}
   - {fileID: 4000011873576888}
+  - {fileID: 4000010353357818}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &4000013840445398
@@ -2729,6 +2759,21 @@ MonoBehaviour:
     i15: 127
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
+--- !u!114 &114000013449821776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012777310582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf825e4c35b56b46a5b7997335c1397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballPrefab: {fileID: 1000011868697792, guid: a0dbf1d2f21dcaf4d9634a00528a388c,
+    type: 2}
+  bulletForce: 15
+  ammo: 30
 --- !u!114 &114000013656831460
 MonoBehaviour:
   m_ObjectHideFlags: 1
