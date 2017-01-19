@@ -33,7 +33,7 @@ public class GunController : NetworkBehaviour
         NetworkServer.Spawn(go);
     }
 
-    void AmmoRefill()
+    public void AmmoRefill()
     {
         ammo = 30;
     }

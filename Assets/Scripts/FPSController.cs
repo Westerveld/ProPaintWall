@@ -19,9 +19,11 @@ public class FPSController : NetworkBehaviour
     private Rigidbody rigidBody;
     private bool grounded = false;
     private Vector3 collisionNormal = Vector3.up;
+
     private float capsuleHeight;
     private Vector3 characterScale;
     private float cameraPosition;
+    private GunController gun;
     
     void Start()
     {
@@ -36,7 +38,7 @@ public class FPSController : NetworkBehaviour
         capsuleHeight = GetComponent<CapsuleCollider>().height;
         characterScale = transform.FindChild("Ethan").localScale;
         cameraPosition = firstPersonCamera.transform.localPosition.y + capsuleHeight / 2f;
-
+        gun = GetComponent<GunController>();
     }
 
     void FixedUpdate()
@@ -138,5 +140,16 @@ public class FPSController : NetworkBehaviour
     void CmdSetCrouch(bool crouching)
     {
         this.crouching = crouching;
+    }
+
+    void OnTriggerStay(Collider col)
+    {
+        if(col.gameObject.tag == "Ammo")
+        {
+            if(Input.GetKey("F"))
+            {
+                gun.AmmoRefill();
+            }
+        }
     }
 }

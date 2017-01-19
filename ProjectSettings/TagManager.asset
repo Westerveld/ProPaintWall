@@ -9,6 +9,7 @@ TagManager:
   - GM
   - NM
   - Lobby
+  - Ammo
   layers:
   - Default
   - TransparentFX
