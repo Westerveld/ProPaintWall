@@ -3,18 +3,23 @@ using System.Collections;
 
 public class BulletController : MonoBehaviour {
 
-    float startTime, lifeTime = 5;
+    float lifeTime = 5;
+    public Team team;
+    public int damage = 20;
 
     void Awake()
     {
-        startTime = Time.time;
+        Destroy(gameObject, lifeTime);
     }
 
-    void FixedUpdate()
+
+    void OnCollisionEnter(Collision col)
     {
-        if(Time.time > startTime + lifeTime)
+        if(col.gameObject.tag == "Paintable")
         {
+            col.gameObject.GetComponent<PaintableObject>().HitObject(team, damage);
             Destroy(gameObject);
         }
     }
+        
 }

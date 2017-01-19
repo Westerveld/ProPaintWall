@@ -12,7 +12,7 @@ public class NetworkPlayer : NetworkBehaviour
 
     TextMesh tm;
     [SyncVar]
-    Team team;
+    public Team team;
     [SyncVar]
     string playerName;
     // Use this for initialization

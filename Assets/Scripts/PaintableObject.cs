@@ -74,7 +74,7 @@ public class PaintableObject : MonoBehaviour {
     }
 
     //Deals with this object being hit with paint. 
-    void HitObject(Team teamThatHitThisObject, int hitPower)
+    public void HitObject(Team teamThatHitThisObject, int hitPower)
     {
         //Ensure there is a team.
         if (teamThatHitThisObject != Team.NoTeam)

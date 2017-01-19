@@ -7,15 +7,17 @@ public class GunController : NetworkBehaviour
     public float bulletForce;
     public int ammo;
 
-    private float lastTime, interval = 0.5f;
+    private float lastTime, interval = 0.1f;
 
     PauseMenu pm;
-
+    Team team;
     void Awake()
     {
         ammo = 30;
         lastTime = 0;
         pm = GameObject.FindGameObjectWithTag("GM").GetComponent<PauseMenu>();
+
+        
     }
 
     void Update()
@@ -26,7 +28,7 @@ public class GunController : NetworkBehaviour
             return;
         }
 
-        if (Input.GetButtonDown("Fire1") && ammo > 0 && Time.time > lastTime + interval && pm.paused != false)
+        if (Input.GetButton("Fire1") && ammo > 0 && Time.time > lastTime + interval && !pm.paused)
         {
             print("Fire");
             CmdFirePaintBall();
@@ -40,7 +42,8 @@ public class GunController : NetworkBehaviour
     {
         print("CMDFIre");
         GameObject go =  (GameObject)Instantiate(paintballPrefab, transform.FindChild("Spawn Point").position, Quaternion.identity);
-        go.GetComponent<Rigidbody>().AddForce(Vector3.forward * bulletForce);
+        go.GetComponent<Rigidbody>().AddForce(transform.FindChild("FirstPersonCharacter").forward * bulletForce);
+        go.GetComponent<BulletController>().team = gameObject.GetComponent<NetworkPlayer>().team;
         NetworkServer.Spawn(go);
     }
 

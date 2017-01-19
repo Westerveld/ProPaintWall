@@ -26,6 +26,7 @@ GameObject:
   - 114: {fileID: 114000014051224802}
   - 114: {fileID: 114000013618064618}
   - 114: {fileID: 114000012213782138}
+  - 114: {fileID: 114000010013134740}
   m_Layer: 0
   m_Name: Paintball
   m_TagString: Untagged
@@ -97,6 +98,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &114000010013134740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011868697792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d38c77af2d3e046ac54797d0f9ca52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team: 0
+  damage: 20
 --- !u!114 &114000012213782138
 MonoBehaviour:
   m_ObjectHideFlags: 1
