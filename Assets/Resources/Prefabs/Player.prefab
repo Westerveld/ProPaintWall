@@ -869,6 +869,7 @@ GameObject:
   - 135: {fileID: 135000011131136944}
   - 114: {fileID: 114000010026882804}
   - 114: {fileID: 114000011820021866}
+  - 114: {fileID: 114000013855971146}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1568,10 +1569,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010772403936}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: -0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_Children:
   - {fileID: 4000012782311212}
   - {fileID: 4000013505321610}
@@ -3580,7 +3581,7 @@ MonoBehaviour:
   maximumSlopeAngle: 45
   lookSensitivity: {x: 5, y: 5}
   gamepadLookSensitivity: {x: 20, y: 15}
-  crouchModifier: 2
+  crouchModifier: 1.5
   crouching: 0
 --- !u!114 &114000011217646696
 MonoBehaviour:
@@ -3647,6 +3648,21 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
+--- !u!114 &114000013855971146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012777310582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf825e4c35b56b46a5b7997335c1397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballPrefab: {fileID: 1000011868697792, guid: a0dbf1d2f21dcaf4d9634a00528a388c,
+    type: 2}
+  bulletForce: 10
+  ammo: 10
 --- !u!124 &124000010949093126
 Behaviour:
   m_ObjectHideFlags: 1

@@ -36,7 +36,6 @@ public class FPSController : NetworkBehaviour
 
         rigidBody = GetComponent<Rigidbody>();
         capsuleHeight = GetComponent<CapsuleCollider>().height;
-        //characterScale = transform.FindChild("Ethan").localScale;
         cameraPosition = firstPersonCamera.transform.localPosition.y + capsuleHeight / 2f;
         gun = GetComponent<GunController>();
     }
@@ -89,9 +88,8 @@ public class FPSController : NetworkBehaviour
         {
             GetComponent<CapsuleCollider>().height = capsuleHeight / crouchModifier;
             GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
-                                                                 -(capsuleHeight / 2f) / crouchModifier,
+                                                                 ((capsuleHeight / crouchModifier) - capsuleHeight) / 2f,
                                                                  GetComponent<CapsuleCollider>().center.z);
-            //transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y / crouchModifier, characterScale.z);
             firstPersonCamera.transform.localPosition = new Vector3(firstPersonCamera.transform.localPosition.x,
                                                                     (cameraPosition / crouchModifier) - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
@@ -102,7 +100,6 @@ public class FPSController : NetworkBehaviour
             GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
                                                                  0f,
                                                                  GetComponent<CapsuleCollider>().center.z);
-            //transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y, characterScale.z);
             firstPersonCamera.transform.localPosition = new Vector3(firstPersonCamera.transform.localPosition.x,
                                                                     cameraPosition - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
