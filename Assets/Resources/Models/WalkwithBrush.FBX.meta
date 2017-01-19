@@ -77,6 +77,69 @@ ModelImporter:
     100138: spine
     100140: Torso
     100142: //RootNode
+    100144: Boneend leg l004
+    100146: Boneend leg l005
+    100148: chest002
+    100150: Controller Left Foot002
+    100152: Controller Right Foot002
+    100154: Cylinder008
+    100156: gun003
+    100158: gun004
+    100160: Head002
+    100162: Helmet002
+    100164: hips002
+    100166: IK Chain heel l004
+    100168: IK Chain heel l005
+    100170: IK Chain leg l004
+    100172: IK Chain leg l005
+    100174: IK Chain toe l004
+    100176: IK Chain toe l005
+    100178: IK Chest002
+    100180: l_Sole_b_legl004
+    100182: l_Sole_b_legl005
+    100184: l_Toe_b_legl004
+    100186: l_Toe_b_legl005
+    100188: Left Arm004
+    100190: Left Arm005
+    100192: Left Eye002
+    100194: Left Hand 013
+    100196: Left Hand 014
+    100198: Left Hand 015
+    100200: Left Hand 016
+    100202: Left Hand 017
+    100204: Left Hand 018
+    100206: Left Hand 1 Lower002
+    100208: Left Hand 1 Lowest004
+    100210: Left Hand 1 Lowest005
+    100212: Left Hand 2 Lower004
+    100214: Left Hand 2 Lower005
+    100216: Left Hand 2 Lowest004
+    100218: Left Hand 2 Lowest005
+    100220: Left Hand 3 Lower004
+    100222: Left Hand 3 Lower005
+    100224: Left Hand 3 Lowest004
+    100226: Left Hand 3 Lowest005
+    100228: Left Hand Thumb Lower002
+    100230: Left Hand Thumb Lowest004
+    100232: Left Hand Thumb Lowest005
+    100234: Left Hand Thumb004
+    100236: Left Hand Thumb005
+    100238: Left Leg002
+    100240: Left Lower Arm002
+    100242: Left Lower Leg002
+    100244: Left Upper Arm002
+    100246: Left Upper Leg002
+    100248: Neck002
+    100250: Right Eye002
+    100252: Right Hand 1 Lower002
+    100254: Right Hand Thumb Lower002
+    100256: Right Leg002
+    100258: Right Lower Arm002
+    100260: Right Lower Leg002
+    100262: Right Upper Arm002
+    100264: Right Upper Leg002
+    100266: spine002
+    100268: Torso002
     400000: Boneend leg l
     400002: Boneend leg l001
     400004: chest
@@ -149,18 +212,93 @@ ModelImporter:
     400138: spine
     400140: Torso
     400142: //RootNode
+    400144: Boneend leg l004
+    400146: Boneend leg l005
+    400148: chest002
+    400150: Controller Left Foot002
+    400152: Controller Right Foot002
+    400154: Cylinder008
+    400156: gun003
+    400158: gun004
+    400160: Head002
+    400162: Helmet002
+    400164: hips002
+    400166: IK Chain heel l004
+    400168: IK Chain heel l005
+    400170: IK Chain leg l004
+    400172: IK Chain leg l005
+    400174: IK Chain toe l004
+    400176: IK Chain toe l005
+    400178: IK Chest002
+    400180: l_Sole_b_legl004
+    400182: l_Sole_b_legl005
+    400184: l_Toe_b_legl004
+    400186: l_Toe_b_legl005
+    400188: Left Arm004
+    400190: Left Arm005
+    400192: Left Eye002
+    400194: Left Hand 013
+    400196: Left Hand 014
+    400198: Left Hand 015
+    400200: Left Hand 016
+    400202: Left Hand 017
+    400204: Left Hand 018
+    400206: Left Hand 1 Lower002
+    400208: Left Hand 1 Lowest004
+    400210: Left Hand 1 Lowest005
+    400212: Left Hand 2 Lower004
+    400214: Left Hand 2 Lower005
+    400216: Left Hand 2 Lowest004
+    400218: Left Hand 2 Lowest005
+    400220: Left Hand 3 Lower004
+    400222: Left Hand 3 Lower005
+    400224: Left Hand 3 Lowest004
+    400226: Left Hand 3 Lowest005
+    400228: Left Hand Thumb Lower002
+    400230: Left Hand Thumb Lowest004
+    400232: Left Hand Thumb Lowest005
+    400234: Left Hand Thumb004
+    400236: Left Hand Thumb005
+    400238: Left Leg002
+    400240: Left Lower Arm002
+    400242: Left Lower Leg002
+    400244: Left Upper Arm002
+    400246: Left Upper Leg002
+    400248: Neck002
+    400250: Right Eye002
+    400252: Right Hand 1 Lower002
+    400254: Right Hand Thumb Lower002
+    400256: Right Leg002
+    400258: Right Lower Arm002
+    400260: Right Lower Leg002
+    400262: Right Upper Arm002
+    400264: Right Upper Leg002
+    400266: spine002
+    400268: Torso002
     2300000: Cylinder001
     2300002: Head
     2300004: Helmet
     2300006: Left Eye
     2300008: Neck
     2300010: Right Eye
+    2300012: Cylinder008
+    2300014: Head002
+    2300016: Helmet002
+    2300018: Left Eye002
+    2300020: Neck002
+    2300022: Right Eye002
     3300000: Cylinder001
     3300002: Head
     3300004: Helmet
     3300006: Left Eye
     3300008: Neck
     3300010: Right Eye
+    3300012: Cylinder008
+    3300014: Head002
+    3300016: Helmet002
+    3300018: Left Eye002
+    3300020: Neck002
+    3300022: Right Eye002
     4300000: Torso
     4300002: Left Leg
     4300004: Right Leg
@@ -172,6 +310,17 @@ ModelImporter:
     4300016: Left Eye
     4300018: Left Arm001
     4300020: Cylinder001
+    4300022: Cylinder008
+    4300024: Left Leg002
+    4300026: Left Arm004
+    4300028: Neck002
+    4300030: Head002
+    4300032: Left Eye002
+    4300034: Right Eye002
+    4300036: Helmet002
+    4300038: Right Leg002
+    4300040: Left Arm005
+    4300042: Torso002
     7400000: Take 001
     9500000: //RootNode
     13700000: Left Arm
@@ -179,6 +328,11 @@ ModelImporter:
     13700004: Left Leg
     13700006: Right Leg
     13700008: Torso
+    13700010: Left Arm004
+    13700012: Left Arm005
+    13700014: Left Leg002
+    13700016: Right Leg002
+    13700018: Torso002
   materials:
     importMaterials: 1
     materialName: 0
