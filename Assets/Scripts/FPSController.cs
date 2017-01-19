@@ -45,6 +45,8 @@ public class FPSController : NetworkBehaviour
 
         if (isLocalPlayer)
         {
+            GroundCheck();
+
             Vector3 moveVelocity = transform.forward * CrossPlatformInputManager.GetAxis("Vertical") +
                                transform.right * CrossPlatformInputManager.GetAxis("Horizontal");
             moveVelocity = Vector3.ProjectOnPlane(moveVelocity, collisionNormal);
@@ -80,8 +82,6 @@ public class FPSController : NetworkBehaviour
                 CmdSetCrouch(crouching);
             }
             transform.FindChild("Model").GetComponent<Animator>().SetBool("Crouching", crouching);
-
-            grounded = false;
         }
 
         if (crouching)
@@ -107,20 +107,20 @@ public class FPSController : NetworkBehaviour
 
     }
 
-    void OnCollisionStay(Collision collision)
-    {
-        if (isLocalPlayer)
-        {
-            foreach (ContactPoint point in collision.contacts)
-            {
-                if (point.thisCollider == GetComponent<SphereCollider>() && point.normal.y > (Quaternion.Euler(maximumSlopeAngle, 0f, 0f) * Vector3.forward).y)
-                {
-                    grounded = true;
-                    collisionNormal = point.normal;
-                }
-            }
-        }
-    }
+    //void OnCollisionStay(Collision collision)
+    //{
+    //    if (isLocalPlayer)
+    //    {
+    //        foreach (ContactPoint point in collision.contacts)
+    //        {
+    //            if (point.thisCollider == GetComponent<SphereCollider>() && point.normal.y > (Quaternion.Euler(maximumSlopeAngle, 0f, 0f) * Vector3.forward).y)
+    //            {
+    //                grounded = true;
+    //                collisionNormal = point.normal;
+    //            }
+    //        }
+    //    }
+    //}
 
     void OnApplicationFocus(bool focus)
     {
@@ -157,6 +157,24 @@ public class FPSController : NetworkBehaviour
                 gun.AmmoRefill();
                 transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Reload");
             }
+        }
+    }
+
+    void GroundCheck()
+    {
+        RaycastHit hitInfo;
+        if(Physics.SphereCast(transform.position, GetComponent<CapsuleCollider>().radius - 0.01f, Vector3.down, out hitInfo,
+                              (GetComponent<CapsuleCollider>().height / 2f) - GetComponent<CapsuleCollider>().radius + 0.02f,
+                              ~(Physics.AllLayers & (1 << LayerMask.NameToLayer("Player"))),
+                              QueryTriggerInteraction.Ignore) && hitInfo.normal.y > (Quaternion.Euler(maximumSlopeAngle, 0f, 0f) * Vector3.forward).y)
+        {
+            grounded = true;
+            collisionNormal = hitInfo.normal;
+            Debug.Log(hitInfo.transform.name);
+        }
+        else
+        {
+            grounded = false;
         }
     }
 }
