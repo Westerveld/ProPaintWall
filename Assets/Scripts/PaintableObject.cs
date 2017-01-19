@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.Networking;
 class TeamScores
 {
+    [SyncVar]
     private int _m_score;
+
     public int m_score
     {
         get
@@ -22,6 +24,7 @@ class TeamScores
             }
         }
     }
+    
     public Team m_team;
 
     public TeamScores(Team team)
@@ -36,15 +39,18 @@ class TeamScores
         
     }
 
-    public void SetScore(int score)
+    [Command]
+    public void CmdSetScore(int score)
     {
         m_score = score;
     }
 }
 
-public class PaintableObject : MonoBehaviour {
+public class PaintableObject : NetworkBehaviour {
 
-   public Team teamInControl = Team.NoTeam; //The current team in control of this object. ie who has it painted. 
+    [SyncVar]
+    public Team teamInControl = Team.NoTeam; //The current team in control of this object. ie who has it painted. 
+
     public int maxPaintWeight = 100;
     public int targetPaintWeight = 50;
     public int scoreWeight = 1;
@@ -85,10 +91,10 @@ public class PaintableObject : MonoBehaviour {
                 {
                    
                     // team.AddToScore(hitPower);
-                    team.SetScore(hitPower + team.m_score);
+                    team.CmdSetScore(hitPower + team.m_score);
                     if (team.m_score > maxPaintWeight)
                     {
-                        team.SetScore(maxPaintWeight);
+                        team.CmdSetScore(maxPaintWeight);
                     }
                 }
                 else
@@ -97,16 +103,17 @@ public class PaintableObject : MonoBehaviour {
                     team.AddToScore(-hitPower);
                     if (team.m_score < 0)
                     {
-                        team.SetScore(0);
+                        team.CmdSetScore(0);
                     }
                 }
          }
-            CalculateControlOfThisObject();
+            CmdCalculateControlOfThisObject();
 
             pom.UpdateTeamPaintCount();
         }
     }
-    void CalculateControlOfThisObject()
+    [Command]
+    void CmdCalculateControlOfThisObject()
     {
         Team teamOnTop = Team.NoTeam;
         int topScore = 0;
