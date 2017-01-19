@@ -36,7 +36,7 @@ public class FPSController : NetworkBehaviour
 
         rigidBody = GetComponent<Rigidbody>();
         capsuleHeight = GetComponent<CapsuleCollider>().height;
-        characterScale = transform.FindChild("Ethan").localScale;
+        //characterScale = transform.FindChild("Ethan").localScale;
         cameraPosition = firstPersonCamera.transform.localPosition.y + capsuleHeight / 2f;
         gun = GetComponent<GunController>();
     }
@@ -51,6 +51,8 @@ public class FPSController : NetworkBehaviour
             moveVelocity = Vector3.ProjectOnPlane(moveVelocity, collisionNormal);
             moveVelocity *= moveSpeed * (CrossPlatformInputManager.GetButton("Sprint") ? sprintModifier : 1f);
 
+            GetComponent<Animator>().SetFloat("Speed", moveVelocity.magnitude);
+
             Vector3 newVelocity = rigidBody.velocity;
             newVelocity.x = moveVelocity.x;
             newVelocity.z = moveVelocity.z;
@@ -58,6 +60,7 @@ public class FPSController : NetworkBehaviour
             if (CrossPlatformInputManager.GetButtonDown("Jump") && grounded)
             {
                 newVelocity.y = jumpSpeed;
+                GetComponent<Animator>().SetTrigger("Jump");
             }
 
             rigidBody.velocity = newVelocity;
@@ -77,6 +80,7 @@ public class FPSController : NetworkBehaviour
                 crouching = false;
                 CmdSetCrouch(crouching);
             }
+            GetComponent<Animator>().SetBool("Crouching", crouching);
 
             grounded = false;
         }
@@ -87,7 +91,7 @@ public class FPSController : NetworkBehaviour
             GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
                                                                  -(capsuleHeight / 2f) / crouchModifier,
                                                                  GetComponent<CapsuleCollider>().center.z);
-            transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y / crouchModifier, characterScale.z);
+            //transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y / crouchModifier, characterScale.z);
             firstPersonCamera.transform.localPosition = new Vector3(firstPersonCamera.transform.localPosition.x,
                                                                     (cameraPosition / crouchModifier) - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
@@ -98,7 +102,7 @@ public class FPSController : NetworkBehaviour
             GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
                                                                  0f,
                                                                  GetComponent<CapsuleCollider>().center.z);
-            transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y, characterScale.z);
+            //transform.FindChild("Ethan").localScale = new Vector3(characterScale.x, characterScale.y, characterScale.z);
             firstPersonCamera.transform.localPosition = new Vector3(firstPersonCamera.transform.localPosition.x,
                                                                     cameraPosition - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
@@ -154,6 +158,7 @@ public class FPSController : NetworkBehaviour
             {
                 print("Reloading");
                 gun.AmmoRefill();
+                GetComponent<Animator>().SetTrigger("Reload");
             }
         }
     }

@@ -280,7 +280,7 @@ ModelImporter:
     4300044: Cylinder005
     4300046: Cylinder006
     4300048: Sphere001
-    7400000: Take 001
+    7400000: Idle
     9500000: //RootNode
     13700000: Leg
     13700002: OtherLeg
@@ -307,7 +307,265 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box007
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/IK Chain001
+        weight: 1
+      - path: Circle001/IK Chain002
+        weight: 1
+      - path: Circle001/IK Chain003
+        weight: 1
+      - path: Circle001/IK Chain004
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain005
+        weight: 1
+      - path: Circle002/IK Chain006
+        weight: 1
+      - path: Circle002/IK Chain007
+        weight: 1
+      - path: Circle002/IK Chain008
+        weight: 1
+      - path: Controller Foot l
+        weight: 1
+      - path: Controller Foot l/Rig_Heel
+        weight: 1
+      - path: Controller Foot l/Rig_Heel/Rig_Toe
+        weight: 1
+      - path: Controller Foot l/Rig_Heel/Rig_Toe/IK Chain toe l
+        weight: 1
+      - path: Controller Foot l/Rig_Heel/Rig_Toe/Rig_foot
+        weight: 1
+      - path: Controller Foot l/Rig_Heel/Rig_Toe/Rig_foot/IK Chain heel l
+        weight: 1
+      - path: Controller Foot l/Rig_Heel/Rig_Toe/Rig_foot/Rig_Ankle
+        weight: 1
+      - path: Controller Foot l/Rig_Heel/Rig_Toe/Rig_foot/Rig_Ankle/IK Chain leg l
+        weight: 1
+      - path: Controller Foot l001
+        weight: 1
+      - path: Controller Foot l001/Rig_Heel001
+        weight: 1
+      - path: Controller Foot l001/Rig_Heel001/Rig_Toe001
+        weight: 1
+      - path: Controller Foot l001/Rig_Heel001/Rig_Toe001/IK Chain toe l001
+        weight: 1
+      - path: Controller Foot l001/Rig_Heel001/Rig_Toe001/Rig_foot001
+        weight: 1
+      - path: Controller Foot l001/Rig_Heel001/Rig_Toe001/Rig_foot001/IK Chain heel
+          l001
+        weight: 1
+      - path: Controller Foot l001/Rig_Heel001/Rig_Toe001/Rig_foot001/Rig_Ankle001
+        weight: 1
+      - path: Controller Foot l001/Rig_Heel001/Rig_Toe001/Rig_foot001/Rig_Ankle001/IK
+          Chain leg l001
+        weight: 1
+      - path: Controller LegRotation l
+        weight: 1
+      - path: Controller LegRotation l/Rig_Knee
+        weight: 1
+      - path: Controller LegRotation l001
+        weight: 1
+      - path: Controller LegRotation l001/Rig_Knee001
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: gun/gun 1
+        weight: 1
+      - path: gun/gun 1/Box001
+        weight: 1
+      - path: gun/gun 1/Box002
+        weight: 1
+      - path: gun/gun 1/Box004
+        weight: 1
+      - path: gun/gun 1/Box005
+        weight: 1
+      - path: gun/gun 1/Box006
+        weight: 1
+      - path: gun/gun 1/Box008
+        weight: 1
+      - path: gun/gun 1/Box009
+        weight: 1
+      - path: gun/gun 1/Box010
+        weight: 1
+      - path: gun/gun 1/Cylinder001
+        weight: 1
+      - path: gun/gun 1/Cylinder002
+        weight: 1
+      - path: gun/gun 1/Cylinder003
+        weight: 1
+      - path: gun/gun 1/Cylinder004
+        weight: 1
+      - path: gun/gun 1/Cylinder005
+        weight: 1
+      - path: gun/gun 1/Cylinder006
+        weight: 1
+      - path: gun/gun 1/Sphere001
+        weight: 1
+      - path: IK Chain arm
+        weight: 1
+      - path: IK Chain arm001
+        weight: 1
+      - path: IK Chain009
+        weight: 1
+      - path: IK Chain010
+        weight: 1
+      - path: l_upperleg_b_l
+        weight: 1
+      - path: l_upperleg_b_l/ll_owerleg_b_l
+        weight: 1
+      - path: l_upperleg_b_l/ll_owerleg_b_l/l_Sole_b_legl
+        weight: 1
+      - path: l_upperleg_b_l/ll_owerleg_b_l/l_Sole_b_legl/l_Toe_b_legl
+        weight: 1
+      - path: l_upperleg_b_l/ll_owerleg_b_l/l_Sole_b_legl/l_Toe_b_legl/Boneend leg
+          l
+        weight: 1
+      - path: l_upperleg_b_l001
+        weight: 1
+      - path: l_upperleg_b_l001/ll_owerleg_b_l001
+        weight: 1
+      - path: l_upperleg_b_l001/ll_owerleg_b_l001/l_Sole_b_legl001
+        weight: 1
+      - path: l_upperleg_b_l001/ll_owerleg_b_l001/l_Sole_b_legl001/l_Toe_b_legl001
+        weight: 1
+      - path: l_upperleg_b_l001/ll_owerleg_b_l001/l_Sole_b_legl001/l_Toe_b_legl001/Boneend
+          leg l001
+        weight: 1
+      - path: Leg
+        weight: 1
+      - path: Other Eye
+        weight: 1
+      - path: OtherLeg
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: RightArm bone top
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 2ndfintop
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 2ndfintop/RightArm
+          bone 2ndfinbot
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 2ndfintop/RightArm
+          bone 2ndfinbot/End Right 2ndfin
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 3rdfintop
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 3rdfintop/RightArm
+          bone 3rdfinbot
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 3rdfintop/RightArm
+          bone 3rdfinbot/End Right 3rdfin
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 4thfintop
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 4thfintop/RightArm
+          bone 4thfinbot
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone 4thfintop/RightArm
+          bone 4thfinbot/End Right 4thfin
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone thumbtop
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone thumbtop/RightArm
+          bone thumbbot
+        weight: 1
+      - path: RightArm bone top/RightArm bone bottom/RightArm bone thumbtop/RightArm
+          bone thumbbot/End thumb right
+        weight: 1
+      - path: RightArm bone top001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 2ndfintop001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 2ndfintop001/RightArm
+          bone 2ndfinbot001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 2ndfintop001/RightArm
+          bone 2ndfinbot001/End Right 2ndfin001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 3rdfintop001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 3rdfintop001/RightArm
+          bone 3rdfinbot001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 3rdfintop001/RightArm
+          bone 3rdfinbot001/End Right 3rdfin001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 4thfintop001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 4thfintop001/RightArm
+          bone 4thfinbot001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone 4thfintop001/RightArm
+          bone 4thfinbot001/End Right 4thfin001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone thumbtop001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone thumbtop001/RightArm
+          bone thumbbot001
+        weight: 1
+      - path: RightArm bone top001/RightArm bone bottom001/RightArm bone thumbtop001/RightArm
+          bone thumbbot001/End thumb right001
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: Torso/Neck
+        weight: 1
+      - path: Torso/Neck/Head
+        weight: 1
+      - path: Torso/Neck/Head/Helmet
+        weight: 1
+      - path: Torso/Right Arm
+        weight: 1
+      - path: Torso/Right Arm001
+        weight: 1
+      - path: torsotop
+        weight: 1
+      - path: torsotop/torsobot
+        weight: 1
+      - path: torsotop/torsobot/endtroso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

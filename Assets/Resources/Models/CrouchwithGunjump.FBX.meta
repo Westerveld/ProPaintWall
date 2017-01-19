@@ -246,7 +246,7 @@ ModelImporter:
     4300044: Box010
     4300046: Box009
     4300048: Cylinder003
-    7400000: Take 001
+    7400000: CrouchJump
     9500000: //RootNode
     13700000: Left Arm
     13700002: Left Arm001
@@ -273,7 +273,232 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CrouchJump
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Controller Left Foot
+        weight: 1
+      - path: Controller Left Foot/Rig_Heel001
+        weight: 1
+      - path: Controller Left Foot/Rig_Heel001/Rig_Toe001
+        weight: 1
+      - path: Controller Left Foot/Rig_Heel001/Rig_Toe001/IK Chain toe l001
+        weight: 1
+      - path: Controller Left Foot/Rig_Heel001/Rig_Toe001/Rig_foot001
+        weight: 1
+      - path: Controller Left Foot/Rig_Heel001/Rig_Toe001/Rig_foot001/IK Chain heel
+          l001
+        weight: 1
+      - path: Controller Left Foot/Rig_Heel001/Rig_Toe001/Rig_foot001/Rig_Ankle001
+        weight: 1
+      - path: Controller Left Foot/Rig_Heel001/Rig_Toe001/Rig_foot001/Rig_Ankle001/IK
+          Chain leg l001
+        weight: 1
+      - path: Controller Right Foot
+        weight: 1
+      - path: Controller Right Foot/Rig_Heel
+        weight: 1
+      - path: Controller Right Foot/Rig_Heel/Rig_Toe
+        weight: 1
+      - path: Controller Right Foot/Rig_Heel/Rig_Toe/IK Chain toe l
+        weight: 1
+      - path: Controller Right Foot/Rig_Heel/Rig_Toe/Rig_foot
+        weight: 1
+      - path: Controller Right Foot/Rig_Heel/Rig_Toe/Rig_foot/IK Chain heel l
+        weight: 1
+      - path: Controller Right Foot/Rig_Heel/Rig_Toe/Rig_foot/Rig_Ankle
+        weight: 1
+      - path: Controller Right Foot/Rig_Heel/Rig_Toe/Rig_foot/Rig_Ankle/IK Chain leg
+          l
+        weight: 1
+      - path: Eye Rotation
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: gun/gun 1
+        weight: 1
+      - path: gun/gun 1/gun 2
+        weight: 1
+      - path: gun/gun 1/gun 2/Box001
+        weight: 1
+      - path: gun/gun 1/gun 2/Box002
+        weight: 1
+      - path: gun/gun 1/gun 2/Box004
+        weight: 1
+      - path: gun/gun 1/gun 2/Box005
+        weight: 1
+      - path: gun/gun 1/gun 2/Box006
+        weight: 1
+      - path: gun/gun 1/gun 2/Box008
+        weight: 1
+      - path: gun/gun 1/gun 2/Box009
+        weight: 1
+      - path: gun/gun 1/gun 2/Box010
+        weight: 1
+      - path: gun/gun 1/gun 2/Cylinder001
+        weight: 1
+      - path: gun/gun 1/gun 2/Cylinder002
+        weight: 1
+      - path: gun/gun 1/gun 2/Cylinder003
+        weight: 1
+      - path: gun/gun 1/gun 2/Cylinder004
+        weight: 1
+      - path: gun/gun 1/gun 2/Cylinder005
+        weight: 1
+      - path: gun/gun 1/gun 2/Cylinder006
+        weight: 1
+      - path: gun/gun 1/gun 2/Sphere001
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/Left Upper Leg
+        weight: 1
+      - path: hips/Left Upper Leg/Left Lower Leg
+        weight: 1
+      - path: hips/Left Upper Leg/Left Lower Leg/l_Sole_b_legl001
+        weight: 1
+      - path: hips/Left Upper Leg/Left Lower Leg/l_Sole_b_legl001/l_Toe_b_legl001
+        weight: 1
+      - path: hips/Left Upper Leg/Left Lower Leg/l_Sole_b_legl001/l_Toe_b_legl001/Boneend
+          leg l001
+        weight: 1
+      - path: hips/Right Upper Leg
+        weight: 1
+      - path: hips/Right Upper Leg/Right Lower Leg
+        weight: 1
+      - path: hips/Right Upper Leg/Right Lower Leg/l_Sole_b_legl
+        weight: 1
+      - path: hips/Right Upper Leg/Right Lower Leg/l_Sole_b_legl/l_Toe_b_legl
+        weight: 1
+      - path: hips/Right Upper Leg/Right Lower Leg/l_Sole_b_legl/l_Toe_b_legl/Boneend
+          leg l
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 1
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 1/Left Hand
+          1 Lower
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 1/Left Hand
+          1 Lower/Left Hand 1 Lowest
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 2
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 2/Left Hand
+          2 Lower
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 2/Left Hand
+          2 Lower/Left Hand 2 Lowest
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 3
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 3/Left Hand
+          3 Lower
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand 3/Left Hand
+          3 Lower/Left Hand 3 Lowest
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand Thumb
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand Thumb/Left
+          Hand Thumb Lower
+        weight: 1
+      - path: hips/spine/chest/Left Upper Arm/Left Lower Arm/Left Hand Thumb/Left
+          Hand Thumb Lower/Left Hand Thumb Lowest
+        weight: 1
+      - path: hips/spine/chest/Neck
+        weight: 1
+      - path: hips/spine/chest/Neck/Head
+        weight: 1
+      - path: hips/spine/chest/Neck/Head/Helmet
+        weight: 1
+      - path: hips/spine/chest/Neck/Head/Left Eye
+        weight: 1
+      - path: hips/spine/chest/Neck/Head/Right Eye
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 004
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 004/Right
+          Hand 1 Lower
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 004/Right
+          Hand 1 Lower/Left Hand 1 Lowest001
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 005
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 005/Left
+          Hand 2 Lower001
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 005/Left
+          Hand 2 Lower001/Left Hand 2 Lowest001
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 006
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 006/Left
+          Hand 3 Lower001
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand 006/Left
+          Hand 3 Lower001/Left Hand 3 Lowest001
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand Thumb001
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand Thumb001/Right
+          Hand Thumb Lower
+        weight: 1
+      - path: hips/spine/chest/Right Upper Arm/Right Lower Arm/Left Hand Thumb001/Right
+          Hand Thumb Lower/Left Hand Thumb Lowest001
+        weight: 1
+      - path: IK Chest
+        weight: 1
+      - path: Left Arm
+        weight: 1
+      - path: Left Arm001
+        weight: 1
+      - path: Left Leg
+        weight: 1
+      - path: Right Leg
+        weight: 1
+      - path: Torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
