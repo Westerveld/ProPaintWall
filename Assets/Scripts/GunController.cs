@@ -31,18 +31,18 @@ public class GunController : NetworkBehaviour
         if (Input.GetButton("Fire1") && ammo > 0 && Time.time > lastTime + interval && !pm.paused)
         {
             print("Fire");
-            CmdFirePaintBall();
+            CmdFirePaintBall(transform.FindChild("FirstPersonCharacter").forward);
             ammo--;
             lastTime = Time.time;
         }
     }
 
    [Command]
-    void CmdFirePaintBall()
+    void CmdFirePaintBall(Vector3 dir)
     {
         print("CMDFIre");
         GameObject go =  (GameObject)Instantiate(paintballPrefab, transform.FindChild("Spawn Point").position, Quaternion.identity);
-        go.GetComponent<Rigidbody>().velocity = transform.FindChild("FirstPersonCharacter").forward * bulletForce;
+        go.GetComponent<Rigidbody>().velocity = dir * bulletForce;
         //go.GetComponent<Rigidbody>().AddForce(transform.FindChild("FirstPersonCharacter").forward * bulletForce);
         go.GetComponent<BulletController>().team = gameObject.GetComponent<NetworkPlayer>().team;
         NetworkServer.Spawn(go);
