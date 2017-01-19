@@ -146,8 +146,13 @@ public class FPSController : NetworkBehaviour
     {
         if(col.gameObject.tag == "Ammo")
         {
-            if(Input.GetKey("F"))
+            if(!isLocalPlayer)
             {
+                return;
+            }
+            if(Input.GetButton("Reload") && gun.ammo < 30)
+            {
+                print("Reloading");
                 gun.AmmoRefill();
             }
         }

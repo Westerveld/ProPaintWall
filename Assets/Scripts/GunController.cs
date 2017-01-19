@@ -4,19 +4,29 @@ using UnityEngine.Networking;
 public class GunController : NetworkBehaviour
 {
     public GameObject paintballPrefab;
-    private float lastTime, interval;
-    private int ammo;
+    public float bulletForce;
+    public int ammo;
 
-    void Start()
+    private float lastTime, interval = 0.5f;
+
+    PauseMenu pm;
+
+    void Awake()
     {
         ammo = 30;
         lastTime = 0;
+        pm = GameObject.FindGameObjectWithTag("GM").GetComponent<PauseMenu>();
     }
 
     void Update()
     {
        
-        if (Input.GetButtonDown("Fire1") && ammo > 0 && Time.time > lastTime + interval)
+        if(!isLocalPlayer)
+        {
+            return;
+        }
+
+        if (Input.GetButtonDown("Fire1") && ammo > 0 && Time.time > lastTime + interval && pm.paused != false)
         {
             print("Fire");
             CmdFirePaintBall();
@@ -30,6 +40,7 @@ public class GunController : NetworkBehaviour
     {
         print("CMDFIre");
         GameObject go =  (GameObject)Instantiate(paintballPrefab, transform.FindChild("Spawn Point").position, Quaternion.identity);
+        go.GetComponent<Rigidbody>().AddForce(Vector3.forward * bulletForce);
         NetworkServer.Spawn(go);
     }
 
