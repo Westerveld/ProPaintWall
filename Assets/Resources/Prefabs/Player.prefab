@@ -3736,6 +3736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f20ffa576d7a145994e507e739e5ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  team: 0
 --- !u!114 &114000013656831460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3769,7 +3770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paintballPrefab: {fileID: 1000011868697792, guid: a0dbf1d2f21dcaf4d9634a00528a388c,
     type: 2}
-  bulletForce: 10
+  bulletForce: 50
   ammo: 10
 --- !u!124 &124000010949093126
 Behaviour:
