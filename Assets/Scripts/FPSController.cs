@@ -51,7 +51,7 @@ public class FPSController : NetworkBehaviour
             moveVelocity = Vector3.ProjectOnPlane(moveVelocity, collisionNormal);
             moveVelocity *= moveSpeed * (CrossPlatformInputManager.GetButton("Sprint") ? sprintModifier : 1f);
 
-            GetComponent<Animator>().SetFloat("Speed", moveVelocity.magnitude);
+            transform.FindChild("Model").GetComponent<Animator>().SetFloat("Speed", moveVelocity.magnitude);
 
             Vector3 newVelocity = rigidBody.velocity;
             newVelocity.x = moveVelocity.x;
@@ -60,7 +60,7 @@ public class FPSController : NetworkBehaviour
             if (CrossPlatformInputManager.GetButtonDown("Jump") && grounded)
             {
                 newVelocity.y = jumpSpeed;
-                GetComponent<Animator>().SetTrigger("Jump");
+                transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Jump");
             }
 
             rigidBody.velocity = newVelocity;
@@ -80,7 +80,7 @@ public class FPSController : NetworkBehaviour
                 crouching = false;
                 CmdSetCrouch(crouching);
             }
-            GetComponent<Animator>().SetBool("Crouching", crouching);
+            transform.FindChild("Model").GetComponent<Animator>().SetBool("Crouching", crouching);
 
             grounded = false;
         }
@@ -158,7 +158,7 @@ public class FPSController : NetworkBehaviour
             {
                 print("Reloading");
                 gun.AmmoRefill();
-                GetComponent<Animator>().SetTrigger("Reload");
+                transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Reload");
             }
         }
     }
