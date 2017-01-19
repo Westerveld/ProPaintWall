@@ -11,7 +11,7 @@ public class GunController : NetworkBehaviour
 
     PauseMenu pm;
     Team team;
-    void Awake()
+    void Start()
     {
         ammo = 30;
         lastTime = 0;
@@ -42,7 +42,8 @@ public class GunController : NetworkBehaviour
     {
         print("CMDFIre");
         GameObject go =  (GameObject)Instantiate(paintballPrefab, transform.FindChild("Spawn Point").position, Quaternion.identity);
-        go.GetComponent<Rigidbody>().AddForce(transform.FindChild("FirstPersonCharacter").forward * bulletForce);
+        go.GetComponent<Rigidbody>().velocity = transform.FindChild("FirstPersonCharacter").forward * bulletForce;
+        //go.GetComponent<Rigidbody>().AddForce(transform.FindChild("FirstPersonCharacter").forward * bulletForce);
         go.GetComponent<BulletController>().team = gameObject.GetComponent<NetworkPlayer>().team;
         NetworkServer.Spawn(go);
     }

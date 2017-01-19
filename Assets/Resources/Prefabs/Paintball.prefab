@@ -24,7 +24,6 @@ GameObject:
   - 23: {fileID: 23000013371503026}
   - 54: {fileID: 54000011902740738}
   - 114: {fileID: 114000014051224802}
-  - 114: {fileID: 114000013618064618}
   - 114: {fileID: 114000012213782138}
   - 114: {fileID: 114000010013134740}
   m_Layer: 0
@@ -109,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5d38c77af2d3e046ac54797d0f9ca52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  team: 0
+  team: 4
   damage: 20
 --- !u!114 &114000012213782138
 MonoBehaviour:
@@ -122,8 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: -1768714887, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 0.04347826
+  m_TransformSyncMode: 3
+  m_SendInterval: 0
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
   m_SyncSpin: 0
@@ -131,17 +130,6 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
---- !u!114 &114000013618064618
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011868697792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdb73e30f1df4f94eaa285c108f53d03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000014051224802
 MonoBehaviour:
   m_ObjectHideFlags: 1

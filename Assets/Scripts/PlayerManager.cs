@@ -4,7 +4,7 @@ public class PlayerManager : MonoBehaviour {
 
     PauseMenu pm;
 	// Use this for initialization
-	void Awake () {
+	void Start () {
         pm = GameObject.FindGameObjectWithTag("GM").GetComponent<PauseMenu>();
 	}
 	

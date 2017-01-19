@@ -7,7 +7,7 @@ public class BulletController : MonoBehaviour {
     public Team team;
     public int damage = 20;
 
-    void Awake()
+    void Start()
     {
         Destroy(gameObject, lifeTime);
     }

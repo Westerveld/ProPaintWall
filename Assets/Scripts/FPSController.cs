@@ -28,7 +28,7 @@ public class FPSController : NetworkBehaviour
     int health;
     int respawnTime;
     
-    void Awake()
+    void Start()
     {
         if (isLocalPlayer)
         {
