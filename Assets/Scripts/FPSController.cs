@@ -25,7 +25,7 @@ public class FPSController : NetworkBehaviour
     private float cameraPosition;
     private GunController gun;
     
-    void Start()
+    void Awake()
     {
         if (isLocalPlayer)
         {
