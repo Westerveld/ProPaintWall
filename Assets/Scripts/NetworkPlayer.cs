@@ -7,12 +7,13 @@ public class NetworkPlayer : NetworkBehaviour
 {
     public Camera cam;
     public AudioListener audioListener;
-    FPSController fpsController; 
+    FPSController fpsController;
+    bool teamSelect = true;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         cam = GameObject.FindGameObjectWithTag("Lobby").GetComponent<Camera>();
-
         /*
 	    if(isLocalPlayer)
         {
@@ -23,5 +24,26 @@ public class NetworkPlayer : NetworkBehaviour
         }
         */
     }
-	
+
+    void Update()
+    {
+        if (teamSelect)
+        {
+            GetComponent<FPSController>().enabled = false;
+            cam.enabled = true;
+            GetComponent<FPSController>().firstPersonCamera.enabled = false;
+        }
+        else
+        {
+            GetComponent<FPSController>().enabled = true;
+            cam.enabled = false;
+            GetComponent<FPSController>().firstPersonCamera.enabled = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            teamSelect = !teamSelect;
+        }
+    }
+
 }
