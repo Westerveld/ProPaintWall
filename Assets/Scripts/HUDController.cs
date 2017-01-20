@@ -56,7 +56,7 @@ public class HUDController : MonoBehaviour
             PauseMenu pauseMenu = GameObject.FindGameObjectWithTag("GM").GetComponent<PauseMenu>();
             if (pauseMenu)
             {
-                gameTimeText.text = "Time remaining: " + Mathf.CeilToInt(pauseMenu.remainingTime) + "s";
+                gameTimeText.text = "Time remaining: " + pauseMenu.remainingTime + "s";
             }
         }
     }
