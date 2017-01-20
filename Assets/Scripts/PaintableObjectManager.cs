@@ -80,9 +80,14 @@ public class PaintableObjectManager : NetworkBehaviour {
     }
 
     //Gets the current score of the game RGBY Total.
-    int[] GetResults()
+    public string GetResults()
     {
-        int[] results = new int[2] { redTeamCount, blueTeamCount };
+       // int[] results = new int[2] { redTeamCount, blueTeamCount };
+
+        string results = "Results = ";
+
+        string[] str = new string[4] { "Results: Red Team", redTeamCount.ToString(), " Blue Team ", blueTeamCount.ToString() };
+        string.Join("", str);
         return results;
     }
 

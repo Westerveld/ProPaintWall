@@ -9,7 +9,7 @@ public class NetworkPlayer : NetworkBehaviour
     FPSController fpsController;
     
     
-    bool inGame = false;
+   public bool inGame = false;
 
     TextMesh tm;
 
@@ -37,7 +37,7 @@ public class NetworkPlayer : NetworkBehaviour
 
     void Update()
     {
-        if(cam == null)
+        if (cam == null)
         {
             cam = GameObject.Find("Menu Camera").GetComponent<Camera>();
             if (isLocalPlayer)
@@ -77,9 +77,19 @@ public class NetworkPlayer : NetworkBehaviour
         }
 
         Begin();
-        // tm.text = playerName;
-        tm.text = team.ToString();
-
+        tm.text = playerName;
+        if (team == Team.RedTeam)
+        {
+        tm.color = Color.red;
+        }
+        else if (team == Team.BlueTeam)
+        {
+            tm.color = Color.blue;
+        }
+        else
+        {
+            tm.color = Color.white;
+        }
     }
 
 

@@ -15,6 +15,11 @@ public class PaintableObject : NetworkBehaviour {
    [SyncEvent]
     public static event UpdatePaintObjectCount EventUpdatePaintObjectCount;
 
+    /// <summary>
+    /// //////////// move to pause menu
+    /// </summary>
+   
+
 
     public int maxPaintWeight = 100;
     //public int targetPaintWeight = 50;
@@ -25,7 +30,8 @@ public class PaintableObject : NetworkBehaviour {
     // Use this for initialization
     void Start () {
         //Set PaintableObjectManager.
-    
+        LobbyUISetup.EventResetObject += CmdResetObject;
+
     }
 
     
@@ -46,6 +52,13 @@ public class PaintableObject : NetworkBehaviour {
     {
         CmdUpdateMaterial();
      
+    }
+
+   
+    void CmdResetObject()
+    {
+        teamInControl = Team.NoTeam;
+        currentPaintWeight = 0;
     }
 
     //Deals with this object being hit with paint. 
@@ -84,16 +97,6 @@ public class PaintableObject : NetworkBehaviour {
         {
             this.teamInControl = Team.BlueTeam;
         }
-
-
-
-
-
-
-
-
-
-
 
 
 
