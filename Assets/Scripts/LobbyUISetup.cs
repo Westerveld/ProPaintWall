@@ -5,11 +5,12 @@ public class LobbyUISetup : MonoBehaviour {
     public Text playerName, test;
     Team teamToJoin;
     public NetworkPlayer localPlayer;
-    public GameManager gm;
+    GameManager gm;
 
 
 	// Use this for initialization
 	void Start () {
+        gm = GameObject.Find("RC").GetComponent<GameManager>();
 	}
 
     public void JoinRedTeam()

@@ -53175,8 +53175,9 @@ GameObject:
   - 124: {fileID: 1204650768}
   - 92: {fileID: 1204650767}
   - 81: {fileID: 1204650766}
+  - 114: {fileID: 1204650771}
   m_Layer: 0
-  m_Name: RespawnCamera
+  m_Name: RC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53250,6 +53251,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
+--- !u!114 &1204650771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204650765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72503e8da7ad53f4b81634a41f4fcb89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endTime: 180
+  gameOver: 0
+  respawnCamera: {fileID: 1204650769}
 --- !u!1001 &1205879381
 Prefab:
   m_ObjectHideFlags: 0
@@ -54862,7 +54877,7 @@ Prefab:
         type: 2}
       propertyPath: gm
       value: 
-      objectReference: {fileID: 1758009018}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0045f0fc8bcf17c46b539236af3258bd, type: 2}
   m_IsPrefabParent: 0
@@ -71501,15 +71516,10 @@ Prefab:
       propertyPath: respawnCamera
       value: 
       objectReference: {fileID: 1204650769}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000010434946786, guid: 728ceb59e8ba71b4c93e22b7fb5270cc, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 728ceb59e8ba71b4c93e22b7fb5270cc, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1758009018 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114000010434946786, guid: 728ceb59e8ba71b4c93e22b7fb5270cc,
-    type: 2}
-  m_PrefabInternal: {fileID: 1758009016}
-  m_Script: {fileID: 11500000, guid: 72503e8da7ad53f4b81634a41f4fcb89, type: 3}
 --- !u!4 &1763560445 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000012889880456, guid: 91f69bfc5795ac143ba5ef80c87fa315,

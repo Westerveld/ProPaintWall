@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
             go.transform.position = spawnPos;
 
         }
-        if (go.GetComponent<NetworkPlayer>().team == Team.RedTeam)
+        else if (go.GetComponent<NetworkPlayer>().team == Team.RedTeam)
         {
             Vector3 spawnPos = GameObject.FindGameObjectWithTag("RedSpawn").transform.position;
             float randX = Random.Range(-2.5f, 2.5f);
@@ -47,13 +47,14 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator Respawn(GameObject go)
     {
-        go.transform.position = new Vector3();
+        go.transform.position = new Vector3(55f,1f,55f);
         go.GetComponent<FPSController>().isDead = true;
         go.GetComponentInChildren<Camera>().enabled = false;
         respawnCamera.enabled = true;
         yield return new WaitForSeconds(3f);
         Spawn(go);
         go.GetComponent<PlayerHealth>().currentHealth = 100;
+        go.GetComponent<GunController>().AmmoRefill();
         go.GetComponentInChildren<Camera>().enabled = true;
         go.GetComponent<FPSController>().isDead = false;
     }

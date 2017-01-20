@@ -29,7 +29,7 @@ public class GunController : NetworkBehaviour
             return;
         }
 
-        if (Input.GetButton("Fire1") && ammo > 0 && Time.time > lastTime + interval && !pm.paused && !fps.inSpawn)
+        if (Input.GetButton("Fire1") && ammo > 0 && Time.time > lastTime + interval && !pm.paused && !fps.inSpawn && !fps.isDead)
         {
             print("Fire");
             CmdFirePaintBall(transform.FindChild("FirstPersonCharacter").forward);

@@ -9,14 +9,21 @@ public class PlayerHealth : NetworkBehaviour {
     [SyncVar]
     public int currentHealth = maxHealth;
 
+    private GameManager gm;
+
+    void Start()
+    {
+        gm = GameObject.Find("RC").GetComponent<GameManager>();
+    }
     public void RemoveHealth(int amount)
     {
-        if (!isServer)
+        if (!isLocalPlayer)
             return;
         currentHealth -= amount;
         if(currentHealth<= 0)
         {
             GetComponent<FPSController>().isDead = true;
+            StartCoroutine(gm.Respawn(gameObject));
         }
     }
 }
