@@ -103,6 +103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -121,21 +123,21 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 145
+    i1: 246
+    i2: 155
+    i3: 252
+    i4: 87
+    i5: 149
+    i6: 172
+    i7: 20
+    i8: 59
+    i9: 165
+    i10: 239
+    i11: 128
+    i12: 200
+    i13: 127
+    i14: 163
+    i15: 21
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0

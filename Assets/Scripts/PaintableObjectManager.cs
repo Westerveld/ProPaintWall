@@ -8,8 +8,8 @@ public enum Team
     RedTeam = 0, GreenTeam = 1, BlueTeam = 2, YellowTeam = 3, NoTeam = 4
 }
 public class PaintableObjectManager : NetworkBehaviour {
-    public Material noTeamMat, redTeamMat, greenTeamMat, blueTeamMat, yellowTeamMat;
-    public Image uiRed, uiGreen, uiBlue, uiYellow;
+ 
+    public Image uiRed, uiBlue;
     public Transform pannel;
 
    
@@ -31,10 +31,11 @@ public class PaintableObjectManager : NetworkBehaviour {
 	void Start () {
         //<TESTING>
         Team[] teams = new Team[2] {Team.RedTeam, Team.BlueTeam };//,  Team.BlueTeam, Team.RedTeam};
-        SetTeamsInGame(teams);
         UpdatePaintBar();
 
-      PaintableObject.EventUpdatePaintObjectCount += UpdateTeamCount;
+     
+        PaintableObject.EventUpdatePaintObjectCount += UpdateTeamCount;
+        
         
     }
     void Destoy()
@@ -42,95 +43,32 @@ public class PaintableObjectManager : NetworkBehaviour {
         PaintableObject.EventUpdatePaintObjectCount -= UpdateTeamCount;
     }
 
-    void Update()
+    void OnGUI()
     {
-        if (test)
-        { 
-        UpdateTeamPaintCount();
-            test = false;
-        }
+        UpdatePaintBar();
     }
-
 
 
     void UpdateTeamCount(int addToRed, int addToBlue)
     {
         redTeamCount += addToRed;
         blueTeamCount += addToBlue;
+       
     }
 
 
-    //Set the teams in play, this data is used to determain what teams to display on the ui. 
-    //Order team ui elements correctly in the hierarchy.
-    public void SetTeamsInGame(Team[] teams)
-    {
-        teamsInGame = teams;
-
-        foreach (Team team in teams)
-        {
-            int layerCount = teams.Length;
-            switch (team)
-            {
-                case Team.RedTeam:
-                    uiRed.gameObject.SetActive(true);
-                    uiRed.transform.SetParent(pannel);
-                    uiRed.transform.SetSiblingIndex(layerCount);
-                    break;
-              
-                case Team.BlueTeam:
-                    uiBlue.gameObject.SetActive(true);
-                    uiBlue.transform.SetParent(pannel);
-                    uiBlue.transform.SetSiblingIndex(layerCount);
-                    break;
-                case Team.NoTeam:
-                    break;
-                default:
-                    break;
-            }
-            layerCount--;
-        }
-    }
-
-
-    //Check each "Paintable" object and update the score acodingly. 
-    //<IMPROVE THIS> this is inefficient and could be improved.
-    public void UpdateTeamPaintCount()
-    {
-        //Reset all scores to 0;
-        totalPaintedObjects = redTeamCount + blueTeamCount;
-      
-        UpdatePaintBar ();
-    }
-
+   
     //Update the ui acording the the current scores. 
     void UpdatePaintBar()
     {
-        //Display the score as even when every team has a score of 0. 
-        // <FIX THIS> This currently doesnt take into acount the number of teams and will display all 4 teams even when there are no players on a team. 
-        if(totalPaintedObjects <= 0)
+        totalPaintedObjects = redTeamCount + blueTeamCount;
+
+       
+        if (totalPaintedObjects <= 0)
         {
             
-            int average = Screen.width / teamsInGame.Length;
-            int count = 0;
-            foreach (Team team in teamsInGame)
-            {
-                
-                switch (team)
-                {
-                    case Team.RedTeam:
-                        uiRed.rectTransform.offsetMin = new Vector2(average * count, uiRed.rectTransform.offsetMin.y);
-                        break;
-                    case Team.BlueTeam:
-                        uiBlue.rectTransform.offsetMin = new Vector2(average * count, uiBlue.rectTransform.offsetMin.y);
-                        break;
-                   case Team.NoTeam:
-                        break;
-                    default:
-                        break;
-                }
-                count++;
-            }
-                         
+            int average = Screen.width / 2;
+            uiBlue.rectTransform.offsetMin = new Vector2(average , uiBlue.rectTransform.offsetMin.y);
         }
         
         else
@@ -149,23 +87,6 @@ public class PaintableObjectManager : NetworkBehaviour {
     }
 
     //Get the corisponding material for the team. Used by Paintable objects to change there material when hit.
-    public Material GetMateralForTeam(Team team)
-    {
-        switch (team)
-        {
-            case Team.RedTeam:
-                return redTeamMat;
-            case Team.GreenTeam:
-                return greenTeamMat;
-            case Team.BlueTeam:
-                return blueTeamMat;
-            case Team.YellowTeam:
-                return yellowTeamMat;
-            case Team.NoTeam:
-                return noTeamMat;
-            default:
-                return noTeamMat;
-        }
-    }
+  
 
 }

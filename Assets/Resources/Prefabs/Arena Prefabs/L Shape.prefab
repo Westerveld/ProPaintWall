@@ -4232,6 +4232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4250,22 +4252,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010107302580
@@ -4282,22 +4284,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010113909594
@@ -4311,6 +4313,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4329,22 +4333,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010256586932
@@ -4358,6 +4362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4373,6 +4379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4388,6 +4396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4406,22 +4416,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010477706578
@@ -4438,22 +4448,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010516203106
@@ -4470,22 +4480,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010586699792
@@ -4502,22 +4512,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010610099552
@@ -4531,6 +4541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4549,22 +4561,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010772259082
@@ -4581,22 +4593,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010787372550
@@ -4613,22 +4625,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010805020926
@@ -4645,22 +4657,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010817312882
@@ -4674,6 +4686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4689,6 +4703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4707,22 +4723,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010888102864
@@ -4739,22 +4755,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010900250172
@@ -4771,22 +4787,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010927218816
@@ -4800,6 +4816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4818,22 +4836,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000010986106536
@@ -4847,6 +4865,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4865,22 +4885,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011050307898
@@ -4897,22 +4917,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011053087308
@@ -4929,22 +4949,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011068536004
@@ -4958,6 +4978,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4973,6 +4995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -4988,6 +5012,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5006,22 +5032,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011240730710
@@ -5038,22 +5064,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011259785550
@@ -5067,6 +5093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5082,6 +5110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5100,22 +5130,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011446627490
@@ -5129,6 +5159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5144,6 +5176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5159,6 +5193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5177,22 +5213,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011754387218
@@ -5209,22 +5245,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011870280696
@@ -5241,22 +5277,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000011907055168
@@ -5270,6 +5306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5288,22 +5326,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012005471470
@@ -5317,6 +5355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5332,6 +5372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5347,6 +5389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5365,22 +5409,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012131740884
@@ -5397,22 +5441,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012162801854
@@ -5429,22 +5473,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012166221812
@@ -5461,22 +5505,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012167296800
@@ -5493,22 +5537,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012167552976
@@ -5522,6 +5566,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5537,6 +5583,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5555,22 +5603,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012238812594
@@ -5584,6 +5632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5599,6 +5649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5614,6 +5666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5632,22 +5686,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012355159202
@@ -5661,6 +5715,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5676,6 +5732,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5691,6 +5749,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5709,22 +5769,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012534822108
@@ -5738,6 +5798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5756,22 +5818,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012587284138
@@ -5788,22 +5850,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012669432614
@@ -5817,6 +5879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5835,22 +5899,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012687080306
@@ -5864,6 +5928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5882,22 +5948,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000012923841520
@@ -5911,6 +5977,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5926,6 +5994,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5944,22 +6014,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013008285566
@@ -5973,6 +6043,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -5988,6 +6060,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6006,22 +6080,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013159102452
@@ -6038,22 +6112,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013181994330
@@ -6067,6 +6141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6085,22 +6161,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013255611214
@@ -6117,22 +6193,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013290955546
@@ -6146,6 +6222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6161,6 +6239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6176,6 +6256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6191,6 +6273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6206,6 +6290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6221,6 +6307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6239,22 +6327,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013618900854
@@ -6271,22 +6359,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013668854214
@@ -6300,6 +6388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6315,6 +6405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6333,22 +6425,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013822632348
@@ -6362,6 +6454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6377,6 +6471,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6392,6 +6488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6410,22 +6508,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013885659076
@@ -6442,22 +6540,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000013888828576
@@ -6474,22 +6572,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000014016653844
@@ -6506,22 +6604,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000014073217350
@@ -6535,6 +6633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6550,6 +6650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: 3e9451bfb2cb7ea4997d350afae6a1e9, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
   scoreWeight: 1
@@ -6568,22 +6670,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114000014241065330
@@ -6600,21 +6702,21 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
+    i0: 93
+    i1: 195
+    i2: 244
+    i3: 110
+    i4: 254
+    i5: 155
+    i6: 234
+    i7: 36
+    i8: 10
+    i9: 95
+    i10: 78
+    i11: 11
+    i12: 215
+    i13: 181
+    i14: 151
+    i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
