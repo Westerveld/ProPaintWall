@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011277817092}
   - 114: {fileID: 114000011791306704}
+  - 114: {fileID: 114000013518761814}
   m_Layer: 0
   m_Name: PaintableObjectManager
   m_TagString: POM
@@ -62,3 +63,35 @@ MonoBehaviour:
   uiYellow: {fileID: 0}
   pannel: {fileID: 0}
   test: 0
+--- !u!114 &114000013518761814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012789233400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 17
+    i1: 29
+    i2: 210
+    i3: 17
+    i4: 196
+    i5: 105
+    i6: 111
+    i7: 20
+    i8: 75
+    i9: 213
+    i10: 90
+    i11: 208
+    i12: 220
+    i13: 171
+    i14: 171
+    i15: 172
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

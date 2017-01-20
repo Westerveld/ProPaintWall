@@ -2,25 +2,44 @@
 using System.Collections;
 using System;
 using UnityEngine.UI;
-
+using UnityEngine.Networking;
 public enum Team
 {
     RedTeam = 0, GreenTeam = 1, BlueTeam = 2, YellowTeam = 3, NoTeam = 4
 }
-public class PaintableObjectManager : MonoBehaviour {
+public class PaintableObjectManager : NetworkBehaviour {
     public Material noTeamMat, redTeamMat, greenTeamMat, blueTeamMat, yellowTeamMat;
     public Image uiRed, uiGreen, uiBlue, uiYellow;
     public Transform pannel;
-	int totalPaintRedTeam = 0, totalPaintGreenTeam = 0, totalPaintBlueTeam = 0 , totalPaintYellowTeam = 0, totalPaintedObjects = 0;
+
+   
+
+
+
+    [SyncVar]
+    int redTeamCount;
+    [SyncVar]
+    int blueTeamCount;
+
+    int totalPaintedObjects;
+
+    //int totalPaintRedTeam = 0, totalPaintGreenTeam = 0, totalPaintBlueTeam = 0 , totalPaintYellowTeam = 0, totalPaintedObjects = 0;
     Team[] teamsInGame;
     //<TESTING>
     public bool test = false;
     // Use this for initialization
 	void Start () {
         //<TESTING>
-        Team[] teams = new Team[4] { Team.YellowTeam, Team.RedTeam, Team.GreenTeam, Team.BlueTeam };//,  Team.BlueTeam, Team.RedTeam};
+        Team[] teams = new Team[2] {Team.RedTeam, Team.BlueTeam };//,  Team.BlueTeam, Team.RedTeam};
         SetTeamsInGame(teams);
         UpdatePaintBar();
+
+      PaintableObject.EventUpdatePaintObjectCount += UpdateTeamCount;
+        
+    }
+    void Destoy()
+    {
+        PaintableObject.EventUpdatePaintObjectCount -= UpdateTeamCount;
     }
 
     void Update()
@@ -31,6 +50,16 @@ public class PaintableObjectManager : MonoBehaviour {
             test = false;
         }
     }
+
+
+
+    void UpdateTeamCount(int addToRed, int addToBlue)
+    {
+        redTeamCount += addToRed;
+        blueTeamCount += addToBlue;
+    }
+
+
     //Set the teams in play, this data is used to determain what teams to display on the ui. 
     //Order team ui elements correctly in the hierarchy.
     public void SetTeamsInGame(Team[] teams)
@@ -47,20 +76,11 @@ public class PaintableObjectManager : MonoBehaviour {
                     uiRed.transform.SetParent(pannel);
                     uiRed.transform.SetSiblingIndex(layerCount);
                     break;
-                case Team.GreenTeam:
-                    uiGreen.gameObject.SetActive(true);
-                    uiGreen.transform.SetParent(pannel);
-                    uiGreen.transform.SetSiblingIndex(layerCount);
-                    break;
+              
                 case Team.BlueTeam:
                     uiBlue.gameObject.SetActive(true);
                     uiBlue.transform.SetParent(pannel);
                     uiBlue.transform.SetSiblingIndex(layerCount);
-                    break;
-                case Team.YellowTeam:
-                    uiYellow.gameObject.SetActive(true);
-                    uiYellow.transform.SetParent(pannel);
-                    uiYellow.transform.SetSiblingIndex(layerCount);
                     break;
                 case Team.NoTeam:
                     break;
@@ -77,33 +97,8 @@ public class PaintableObjectManager : MonoBehaviour {
     public void UpdateTeamPaintCount()
     {
         //Reset all scores to 0;
-        totalPaintRedTeam = totalPaintGreenTeam = totalPaintBlueTeam = totalPaintYellowTeam = 0;
-        foreach (GameObject go in GameObject.FindGameObjectsWithTag("Paintable"))
-            {
-            switch (go.GetComponent<PaintableObject>().teamInControl)
-            {
-                case Team.RedTeam:
-                    totalPaintRedTeam++;
-                    break;
-                case Team.GreenTeam:
-                    totalPaintGreenTeam++;
-                    break;
-                case Team.BlueTeam:
-                    totalPaintBlueTeam++;
-                    break;
-                case Team.YellowTeam:
-                    totalPaintYellowTeam++;
-                    break;
-                case Team.NoTeam:
-                    break;
-                default:
-                    break;
-            }
-
-            }
-        //Update Total Score.
-        totalPaintedObjects = totalPaintRedTeam + totalPaintGreenTeam + totalPaintBlueTeam + totalPaintYellowTeam;
-        //Update the ui. 
+        totalPaintedObjects = redTeamCount + blueTeamCount;
+      
         UpdatePaintBar ();
     }
 
@@ -125,16 +120,10 @@ public class PaintableObjectManager : MonoBehaviour {
                     case Team.RedTeam:
                         uiRed.rectTransform.offsetMin = new Vector2(average * count, uiRed.rectTransform.offsetMin.y);
                         break;
-                    case Team.GreenTeam:
-                        uiGreen.rectTransform.offsetMin = new Vector2(average * count, uiGreen.rectTransform.offsetMin.y);
-                        break;
                     case Team.BlueTeam:
                         uiBlue.rectTransform.offsetMin = new Vector2(average * count, uiBlue.rectTransform.offsetMin.y);
                         break;
-                    case Team.YellowTeam:
-                        uiYellow.rectTransform.offsetMin = new Vector2(average * count, uiYellow.rectTransform.offsetMin.y);
-                        break;
-                    case Team.NoTeam:
+                   case Team.NoTeam:
                         break;
                     default:
                         break;
@@ -148,41 +137,14 @@ public class PaintableObjectManager : MonoBehaviour {
         { 
             //Calculate the size of each segment. 
 		    int average = Screen.width / totalPaintedObjects;
-	    	int count = 0;
-            foreach (Team team in teamsInGame)
-            {          
-                    switch (team)
-                    {
-                        case Team.RedTeam:
-                        uiRed.rectTransform.offsetMin = new Vector2(average * count, uiRed.rectTransform.offsetMin.y);
-                        count += totalPaintRedTeam;
-                            break;
-                        case Team.GreenTeam:
-                        uiGreen.rectTransform.offsetMin = new Vector2(average * count, uiGreen.rectTransform.offsetMin.y);
-                        count += totalPaintGreenTeam;
-                            break;
-                        case Team.BlueTeam:
-                       uiBlue.rectTransform.offsetMin = new Vector2(average * count, uiBlue.rectTransform.offsetMin.y);
-                       count += totalPaintBlueTeam;
-                            break;
-                        case Team.YellowTeam:
-                       uiYellow.rectTransform.offsetMin = new Vector2(average * count, uiYellow.rectTransform.offsetMin.y);
-                       count += totalPaintYellowTeam;
-                            break;
-                        case Team.NoTeam:
-                            break;
-                        default:
-                            break;
-                    }
-            }
-      
+	    	  uiBlue.rectTransform.offsetMin = new Vector2(average * redTeamCount, uiBlue.rectTransform.offsetMin.y);
         }
     }
 
     //Gets the current score of the game RGBY Total.
     int[] GetResults()
     {
-        int[] results = new int[5] { totalPaintRedTeam, totalPaintGreenTeam, totalPaintBlueTeam, totalPaintYellowTeam, totalPaintedObjects };
+        int[] results = new int[2] { redTeamCount, blueTeamCount };
         return results;
     }
 
