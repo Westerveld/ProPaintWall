@@ -939,6 +939,7 @@ GameObject:
   - 114: {fileID: 114000010026882804}
   - 114: {fileID: 114000011820021866}
   - 114: {fileID: 114000013855971146}
+  - 114: {fileID: 114000013789955032}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3768,6 +3769,7 @@ MonoBehaviour:
   crouching: 0
   speed: 0
   inSpawn: 0
+  isDead: 0
 --- !u!114 &114000010802571542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3969,6 +3971,18 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
+--- !u!114 &114000013789955032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012777310582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75d05a85c8821834c869085c455f68df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 100
 --- !u!114 &114000013855971146
 MonoBehaviour:
   m_ObjectHideFlags: 1

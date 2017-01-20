@@ -25,8 +25,7 @@ public class BulletController : MonoBehaviour {
         {
             if (NP.team != team)
             {
-                PlayerHealth enemy = col.gameObject.GetComponent<PlayerHealth>();
-                enemy.RemoveHealth(damage);
+                col.gameObject.GetComponent<PlayerHealth>().RemoveHealth(damage);
                 Destroy(gameObject);
             }
         }

@@ -16,8 +16,7 @@ public class PlayerHealth : NetworkBehaviour {
         currentHealth -= amount;
         if(currentHealth<= 0)
         {
-            print("dead");
-            currentHealth = 0;
+            GetComponent<FPSController>().isDead = true;
         }
     }
 }

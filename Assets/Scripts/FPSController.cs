@@ -36,6 +36,7 @@ public class FPSController : NetworkBehaviour
     private GunController gun;
 
     public bool inSpawn = false;
+    public bool isDead = false;
 
     int health;
     int respawnTime;
@@ -68,7 +69,7 @@ public class FPSController : NetworkBehaviour
     void FixedUpdate()
     {
 
-        if (isLocalPlayer)
+        if (isLocalPlayer && !isDead)
         {
             GroundCheck();
 
