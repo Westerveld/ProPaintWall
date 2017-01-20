@@ -4,12 +4,30 @@ using System.Collections;
 
 public class PauseMenu : NetworkBehaviour
 {
+    [SyncVar]
+    public int remainingTime;
+    private int endTime = 180;
 
     public bool paused;
     public GameObject pauseMenu;
     void Start()
     {
         paused = false;
+
+        if (isServer)
+        {
+            StartCoroutine(Timer());
+        }
+    }
+
+    IEnumerator Timer()
+    {
+        remainingTime = endTime;
+        while (remainingTime > 0)
+        {
+            yield return new WaitForSeconds(1f);
+            remainingTime--;
+        }
     }
 
     public void LoadMenu()
