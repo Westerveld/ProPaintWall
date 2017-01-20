@@ -2,6 +2,8 @@
 
 public class PlayerManager : MonoBehaviour {
 
+    public int respawnTime = 0;
+
     PauseMenu pm;
 	// Use this for initialization
 	void Start () {

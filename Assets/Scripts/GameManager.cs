@@ -22,40 +22,49 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void Spawn(GameObject go)
+    public void Spawn(GameObject player)
     {
-        if (go.GetComponent<NetworkPlayer>().team == Team.BlueTeam)
+        if (player.GetComponent<NetworkPlayer>().team == Team.BlueTeam)
         {
             Vector3 spawnPos = GameObject.FindGameObjectWithTag("BlueSpawn").transform.position;
             float randX = Random.Range(-2.5f, 2.5f);
             float randZ = Random.Range(-2.5f, 2.5f);
             spawnPos.x += randX;
             spawnPos.z += randZ;
-            go.transform.position = spawnPos;
+            player.transform.position = spawnPos;
 
         }
-        else if (go.GetComponent<NetworkPlayer>().team == Team.RedTeam)
+        else if (player.GetComponent<NetworkPlayer>().team == Team.RedTeam)
         {
             Vector3 spawnPos = GameObject.FindGameObjectWithTag("RedSpawn").transform.position;
             float randX = Random.Range(-2.5f, 2.5f);
             float randZ = Random.Range(-2.5f, 2.5f);
             spawnPos.x += randX;
             spawnPos.z += randZ;
-            go.transform.position = spawnPos;
+            player.transform.position = spawnPos;
         }
     }
 
-    public IEnumerator Respawn(GameObject go)
+    public IEnumerator Respawn(GameObject player)
     {
-        go.transform.position = new Vector3(55f,1f,55f);
-        go.GetComponent<FPSController>().isDead = true;
-        go.GetComponentInChildren<Camera>().enabled = false;
+        PlayerManager playerManager = player.GetComponent<PlayerManager>();
+        playerManager.respawnTime = 3;
+
+        player.transform.position = new Vector3(55f, 1f, 55f);
+        player.GetComponent<FPSController>().isDead = true;
+        player.GetComponentInChildren<Camera>().enabled = false;
         respawnCamera.enabled = true;
-        yield return new WaitForSeconds(3f);
-        Spawn(go);
-        go.GetComponent<PlayerHealth>().currentHealth = 100;
-        go.GetComponent<GunController>().AmmoRefill();
-        go.GetComponentInChildren<Camera>().enabled = true;
-        go.GetComponent<FPSController>().isDead = false;
+
+        while (playerManager.respawnTime > 0)
+        {
+            yield return new WaitForSeconds(1f);
+            playerManager.respawnTime--;
+        }
+        
+        Spawn(player);
+        player.GetComponent<PlayerHealth>().currentHealth = 100;
+        player.GetComponent<GunController>().AmmoRefill();
+        player.GetComponentInChildren<Camera>().enabled = true;
+        player.GetComponent<FPSController>().isDead = false;
     }
 }

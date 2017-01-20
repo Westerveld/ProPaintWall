@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class HUDController : MonoBehaviour
 {
     public GameObject player;
-    public Text ammoText, healthText;
+    public Text ammoText, healthText, respawnText;
 
     void Awake()
     {
@@ -30,10 +30,25 @@ public class HUDController : MonoBehaviour
         {
             ammoText.text = "Ammo: " + gunController.ammo;
         }
+
         PlayerHealth health = player.GetComponent<PlayerHealth>();
         if(health)
         {
             healthText.text = "Health: " + health.currentHealth;
+        }
+
+        PlayerManager playerManager = player.GetComponent<PlayerManager>();
+        if (playerManager)
+        {
+            if (playerManager.respawnTime == 0)
+            {
+                respawnText.enabled = false;
+            }
+            else
+            {
+                respawnText.enabled = true;
+                respawnText.text = "Time until respawn: " + playerManager.respawnTime + "s";
+            }
         }
     }
 }

@@ -33,7 +33,7 @@ public class LobbyUISetup : MonoBehaviour {
         localPlayer.CmdUpdateName(playerName.text);
         localPlayer.CmdUpdateTeam(teamToJoin);
         gm.Spawn(localPlayer.gameObject);
-        gm.endTime = Time.time + 180f;
+        //gm.endTime = Time.time + 180f;
     }
 
 
