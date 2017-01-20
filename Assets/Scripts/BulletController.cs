@@ -20,6 +20,16 @@ public class BulletController : MonoBehaviour {
             col.gameObject.GetComponent<PaintableObject>().HitObject(team, damage);
             Destroy(gameObject);
         }
+        NetworkPlayer NP = col.gameObject.GetComponent<NetworkPlayer>();
+        if (NP)
+        {
+            if (NP.team != team)
+            {
+                PlayerHealth enemy = col.gameObject.GetComponent<PlayerHealth>();
+                enemy.RemoveHealth(damage);
+                Destroy(gameObject);
+            }
+        }
     }
         
 }

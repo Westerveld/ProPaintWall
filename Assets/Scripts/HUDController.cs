@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class HUDController : MonoBehaviour
 {
     public GameObject player;
-    public Text ammoText;
+    public Text ammoText, healthText;
 
     void Awake()
     {
@@ -29,6 +29,11 @@ public class HUDController : MonoBehaviour
         if (gunController)
         {
             ammoText.text = "Ammo: " + gunController.ammo;
+        }
+        PlayerHealth health = player.GetComponent<PlayerHealth>();
+        if(health)
+        {
+            healthText.text = "Health: " + health.currentHealth;
         }
     }
 }
