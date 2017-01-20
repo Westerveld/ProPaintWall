@@ -23,6 +23,7 @@ GameObject:
   - 65: {fileID: 65000013074885342}
   - 23: {fileID: 23000010240331252}
   - 114: {fileID: 114000013846503022}
+  - 114: {fileID: 114000010805020926}
   m_Layer: 0
   m_Name: 1 (39)
   m_TagString: Paintable
@@ -42,6 +43,7 @@ GameObject:
   - 65: {fileID: 65000014189010404}
   - 23: {fileID: 23000010769585112}
   - 114: {fileID: 114000010256586932}
+  - 114: {fileID: 114000010586699792}
   m_Layer: 0
   m_Name: 1 (41)
   m_TagString: Paintable
@@ -61,6 +63,7 @@ GameObject:
   - 65: {fileID: 65000013399264680}
   - 23: {fileID: 23000014249113276}
   - 114: {fileID: 114000012277750372}
+  - 114: {fileID: 114000010869621592}
   m_Layer: 0
   m_Name: 1 (12)
   m_TagString: Paintable
@@ -80,6 +83,7 @@ GameObject:
   - 65: {fileID: 65000011114559644}
   - 23: {fileID: 23000014185815742}
   - 114: {fileID: 114000010288560998}
+  - 114: {fileID: 114000012162801854}
   m_Layer: 0
   m_Name: 1 (10)
   m_TagString: Paintable
@@ -99,6 +103,7 @@ GameObject:
   - 65: {fileID: 65000011156056510}
   - 23: {fileID: 23000010850892774}
   - 114: {fileID: 114000012381647758}
+  - 114: {fileID: 114000010477706578}
   m_Layer: 0
   m_Name: 1 (24)
   m_TagString: Paintable
@@ -118,6 +123,7 @@ GameObject:
   - 65: {fileID: 65000014021636520}
   - 23: {fileID: 23000013424761588}
   - 114: {fileID: 114000013083256904}
+  - 114: {fileID: 114000013202534748}
   m_Layer: 0
   m_Name: 1 (35)
   m_TagString: Paintable
@@ -137,6 +143,7 @@ GameObject:
   - 65: {fileID: 65000011833629512}
   - 23: {fileID: 23000011322676960}
   - 114: {fileID: 114000012472940732}
+  - 114: {fileID: 114000013119439422}
   m_Layer: 0
   m_Name: 1 (44)
   m_TagString: Paintable
@@ -156,6 +163,7 @@ GameObject:
   - 65: {fileID: 65000011544357676}
   - 23: {fileID: 23000013366097664}
   - 114: {fileID: 114000012534822108}
+  - 114: {fileID: 114000010100241580}
   m_Layer: 0
   m_Name: 1 (27)
   m_TagString: Paintable
@@ -175,6 +183,7 @@ GameObject:
   - 65: {fileID: 65000013879011318}
   - 23: {fileID: 23000012036234354}
   - 114: {fileID: 114000011529026086}
+  - 114: {fileID: 114000012087445362}
   m_Layer: 0
   m_Name: 1 (17)
   m_TagString: Paintable
@@ -194,6 +203,7 @@ GameObject:
   - 65: {fileID: 65000011920169640}
   - 23: {fileID: 23000012630128128}
   - 114: {fileID: 114000012167552976}
+  - 114: {fileID: 114000012670342184}
   m_Layer: 0
   m_Name: 1 (21)
   m_TagString: Paintable
@@ -213,6 +223,7 @@ GameObject:
   - 65: {fileID: 65000011794794974}
   - 23: {fileID: 23000012482369054}
   - 114: {fileID: 114000010986106536}
+  - 114: {fileID: 114000012166221812}
   m_Layer: 0
   m_Name: 1 (5)
   m_TagString: Paintable
@@ -232,6 +243,7 @@ GameObject:
   - 65: {fileID: 65000012599309354}
   - 23: {fileID: 23000012289499554}
   - 114: {fileID: 114000010817312882}
+  - 114: {fileID: 114000010900250172}
   m_Layer: 0
   m_Name: 1 (18)
   m_TagString: Paintable
@@ -251,6 +263,7 @@ GameObject:
   - 65: {fileID: 65000011872891922}
   - 23: {fileID: 23000010076287438}
   - 114: {fileID: 114000010927218816}
+  - 114: {fileID: 114000013879413064}
   m_Layer: 0
   m_Name: 1 (49)
   m_TagString: Paintable
@@ -270,6 +283,7 @@ GameObject:
   - 65: {fileID: 65000011662571976}
   - 23: {fileID: 23000014215111428}
   - 114: {fileID: 114000013603315088}
+  - 114: {fileID: 114000010948181686}
   m_Layer: 0
   m_Name: 1 (13)
   m_TagString: Paintable
@@ -289,6 +303,7 @@ GameObject:
   - 65: {fileID: 65000011234804648}
   - 23: {fileID: 23000013532539474}
   - 114: {fileID: 114000010829564678}
+  - 114: {fileID: 114000010888102864}
   m_Layer: 0
   m_Name: 1 (11)
   m_TagString: Paintable
@@ -308,6 +323,7 @@ GameObject:
   - 65: {fileID: 65000010175961966}
   - 23: {fileID: 23000013803398710}
   - 114: {fileID: 114000013290955546}
+  - 114: {fileID: 114000011870280696}
   m_Layer: 0
   m_Name: 1 (36)
   m_TagString: Paintable
@@ -327,6 +343,7 @@ GameObject:
   - 65: {fileID: 65000014133399090}
   - 23: {fileID: 23000010434136994}
   - 114: {fileID: 114000013008285566}
+  - 114: {fileID: 114000010161236218}
   m_Layer: 0
   m_Name: 1 (9)
   m_TagString: Paintable
@@ -346,6 +363,7 @@ GameObject:
   - 65: {fileID: 65000011701825506}
   - 23: {fileID: 23000010219817236}
   - 114: {fileID: 114000013705956872}
+  - 114: {fileID: 114000012977725716}
   m_Layer: 0
   m_Name: 1 (26)
   m_TagString: Paintable
@@ -380,6 +398,7 @@ GameObject:
   - 65: {fileID: 65000010110793612}
   - 23: {fileID: 23000013996586064}
   - 114: {fileID: 114000012005471470}
+  - 114: {fileID: 114000012587284138}
   m_Layer: 0
   m_Name: 1 (38)
   m_TagString: Paintable
@@ -399,6 +418,7 @@ GameObject:
   - 65: {fileID: 65000013782426218}
   - 23: {fileID: 23000012403068538}
   - 114: {fileID: 114000012687080306}
+  - 114: {fileID: 114000013159102452}
   m_Layer: 0
   m_Name: 1 (2)
   m_TagString: Paintable
@@ -418,6 +438,7 @@ GameObject:
   - 65: {fileID: 65000010626536914}
   - 23: {fileID: 23000013103787224}
   - 114: {fileID: 114000013668854214}
+  - 114: {fileID: 114000011240730710}
   m_Layer: 0
   m_Name: 1 (30)
   m_TagString: Paintable
@@ -437,6 +458,7 @@ GameObject:
   - 65: {fileID: 65000011014776750}
   - 23: {fileID: 23000011565414590}
   - 114: {fileID: 114000013831277580}
+  - 114: {fileID: 114000010107302580}
   m_Layer: 0
   m_Name: 1 (29)
   m_TagString: Paintable
@@ -456,6 +478,7 @@ GameObject:
   - 65: {fileID: 65000010917773402}
   - 23: {fileID: 23000012935294954}
   - 114: {fileID: 114000012355159202}
+  - 114: {fileID: 114000011754387218}
   m_Layer: 0
   m_Name: 1 (48)
   m_TagString: Paintable
@@ -475,6 +498,7 @@ GameObject:
   - 65: {fileID: 65000012750710014}
   - 23: {fileID: 23000010877952196}
   - 114: {fileID: 114000011446627490}
+  - 114: {fileID: 114000012131740884}
   m_Layer: 0
   m_Name: 1 (6)
   m_TagString: Paintable
@@ -494,6 +518,7 @@ GameObject:
   - 65: {fileID: 65000012491181008}
   - 23: {fileID: 23000010602345456}
   - 114: {fileID: 114000013427521330}
+  - 114: {fileID: 114000012510034038}
   m_Layer: 0
   m_Name: 1 (43)
   m_TagString: Paintable
@@ -513,6 +538,7 @@ GameObject:
   - 65: {fileID: 65000011029621844}
   - 23: {fileID: 23000012791697146}
   - 114: {fileID: 114000012238812594}
+  - 114: {fileID: 114000010516203106}
   m_Layer: 0
   m_Name: 1 (33)
   m_TagString: Paintable
@@ -532,6 +558,7 @@ GameObject:
   - 65: {fileID: 65000013114160106}
   - 23: {fileID: 23000012595026534}
   - 114: {fileID: 114000010028858588}
+  - 114: {fileID: 114000013888828576}
   m_Layer: 0
   m_Name: 1 (14)
   m_TagString: Paintable
@@ -551,6 +578,7 @@ GameObject:
   - 65: {fileID: 65000013205714162}
   - 23: {fileID: 23000010107895892}
   - 114: {fileID: 114000012029625068}
+  - 114: {fileID: 114000012578047272}
   m_Layer: 0
   m_Name: 1 (42)
   m_TagString: Paintable
@@ -570,6 +598,7 @@ GameObject:
   - 65: {fileID: 65000014167498292}
   - 23: {fileID: 23000011365681180}
   - 114: {fileID: 114000012923841520}
+  - 114: {fileID: 114000012167296800}
   m_Layer: 0
   m_Name: 1 (20)
   m_TagString: Paintable
@@ -589,6 +618,7 @@ GameObject:
   - 65: {fileID: 65000012836767752}
   - 23: {fileID: 23000013610794978}
   - 114: {fileID: 114000014073217350}
+  - 114: {fileID: 114000013255611214}
   m_Layer: 0
   m_Name: 1 (4)
   m_TagString: Paintable
@@ -608,6 +638,7 @@ GameObject:
   - 65: {fileID: 65000011491405312}
   - 23: {fileID: 23000010863177762}
   - 114: {fileID: 114000010113909594}
+  - 114: {fileID: 114000010436860014}
   m_Layer: 0
   m_Name: 1
   m_TagString: Paintable
@@ -627,6 +658,7 @@ GameObject:
   - 65: {fileID: 65000013111170664}
   - 23: {fileID: 23000011355080966}
   - 114: {fileID: 114000011907055168}
+  - 114: {fileID: 114000011021487254}
   m_Layer: 0
   m_Name: 1 (22)
   m_TagString: Paintable
@@ -646,6 +678,7 @@ GameObject:
   - 65: {fileID: 65000010924581138}
   - 23: {fileID: 23000013753166814}
   - 114: {fileID: 114000012032978294}
+  - 114: {fileID: 114000013885659076}
   m_Layer: 0
   m_Name: 1 (28)
   m_TagString: Paintable
@@ -665,6 +698,7 @@ GameObject:
   - 65: {fileID: 65000011973410622}
   - 23: {fileID: 23000012619338310}
   - 114: {fileID: 114000013181994330}
+  - 114: {fileID: 114000014182132036}
   m_Layer: 0
   m_Name: 1 (7)
   m_TagString: Paintable
@@ -684,6 +718,7 @@ GameObject:
   - 65: {fileID: 65000013188112782}
   - 23: {fileID: 23000011514938982}
   - 114: {fileID: 114000013822632348}
+  - 114: {fileID: 114000012304150116}
   m_Layer: 0
   m_Name: 1 (47)
   m_TagString: Paintable
@@ -703,6 +738,7 @@ GameObject:
   - 65: {fileID: 65000013265558668}
   - 23: {fileID: 23000013444618376}
   - 114: {fileID: 114000010610099552}
+  - 114: {fileID: 114000011187351786}
   m_Layer: 0
   m_Name: 1 (3)
   m_TagString: Paintable
@@ -722,6 +758,7 @@ GameObject:
   - 65: {fileID: 65000011334065484}
   - 23: {fileID: 23000012905734912}
   - 114: {fileID: 114000010347157112}
+  - 114: {fileID: 114000011533377026}
   m_Layer: 0
   m_Name: 1 (34)
   m_TagString: Paintable
@@ -741,6 +778,7 @@ GameObject:
   - 65: {fileID: 65000013422806110}
   - 23: {fileID: 23000011796037774}
   - 114: {fileID: 114000014092753552}
+  - 114: {fileID: 114000012852877908}
   m_Layer: 0
   m_Name: 1 (45)
   m_TagString: Paintable
@@ -760,6 +798,7 @@ GameObject:
   - 65: {fileID: 65000013923402156}
   - 23: {fileID: 23000011857024404}
   - 114: {fileID: 114000011078386822}
+  - 114: {fileID: 114000013618900854}
   m_Layer: 0
   m_Name: 1 (23)
   m_TagString: Paintable
@@ -779,6 +818,7 @@ GameObject:
   - 65: {fileID: 65000011827464808}
   - 23: {fileID: 23000014151269280}
   - 114: {fileID: 114000012669432614}
+  - 114: {fileID: 114000010772259082}
   m_Layer: 0
   m_Name: 1 (1)
   m_TagString: Paintable
@@ -798,6 +838,7 @@ GameObject:
   - 65: {fileID: 65000011892796608}
   - 23: {fileID: 23000012051708516}
   - 114: {fileID: 114000011259785550}
+  - 114: {fileID: 114000013614674648}
   m_Layer: 0
   m_Name: 1 (51)
   m_TagString: Paintable
@@ -817,6 +858,7 @@ GameObject:
   - 65: {fileID: 65000012152217158}
   - 23: {fileID: 23000013945291874}
   - 114: {fileID: 114000013469877746}
+  - 114: {fileID: 114000011363302000}
   m_Layer: 0
   m_Name: 1 (50)
   m_TagString: Paintable
@@ -836,6 +878,7 @@ GameObject:
   - 65: {fileID: 65000014102587920}
   - 23: {fileID: 23000012868874924}
   - 114: {fileID: 114000011068536004}
+  - 114: {fileID: 114000013793035260}
   m_Layer: 0
   m_Name: 1 (25)
   m_TagString: Paintable
@@ -855,6 +898,7 @@ GameObject:
   - 65: {fileID: 65000012025164104}
   - 23: {fileID: 23000013249105194}
   - 114: {fileID: 114000012942128036}
+  - 114: {fileID: 114000011964485342}
   m_Layer: 0
   m_Name: 1 (16)
   m_TagString: Paintable
@@ -874,6 +918,7 @@ GameObject:
   - 65: {fileID: 65000010146554470}
   - 23: {fileID: 23000011782679826}
   - 114: {fileID: 114000011305732118}
+  - 114: {fileID: 114000014016653844}
   m_Layer: 0
   m_Name: 1 (40)
   m_TagString: Paintable
@@ -893,6 +938,7 @@ GameObject:
   - 65: {fileID: 65000012436420874}
   - 23: {fileID: 23000011717010540}
   - 114: {fileID: 114000011094974376}
+  - 114: {fileID: 114000012213135744}
   m_Layer: 0
   m_Name: 1 (37)
   m_TagString: Paintable
@@ -912,6 +958,7 @@ GameObject:
   - 65: {fileID: 65000010335021502}
   - 23: {fileID: 23000010869585308}
   - 114: {fileID: 114000013370144042}
+  - 114: {fileID: 114000011050307898}
   m_Layer: 0
   m_Name: 1 (31)
   m_TagString: Paintable
@@ -931,6 +978,7 @@ GameObject:
   - 65: {fileID: 65000013064222280}
   - 23: {fileID: 23000010528542460}
   - 114: {fileID: 114000012258591294}
+  - 114: {fileID: 114000011053087308}
   m_Layer: 0
   m_Name: 1 (15)
   m_TagString: Paintable
@@ -950,6 +998,7 @@ GameObject:
   - 65: {fileID: 65000012652823740}
   - 23: {fileID: 23000013138144824}
   - 114: {fileID: 114000011512297590}
+  - 114: {fileID: 114000010704983622}
   m_Layer: 0
   m_Name: 1 (46)
   m_TagString: Paintable
@@ -969,6 +1018,7 @@ GameObject:
   - 65: {fileID: 65000014168751966}
   - 23: {fileID: 23000010768303802}
   - 114: {fileID: 114000013338937018}
+  - 114: {fileID: 114000010787372550}
   m_Layer: 0
   m_Name: 1 (32)
   m_TagString: Paintable
@@ -988,6 +1038,7 @@ GameObject:
   - 65: {fileID: 65000013356532760}
   - 23: {fileID: 23000012684610242}
   - 114: {fileID: 114000012179942628}
+  - 114: {fileID: 114000014241065330}
   m_Layer: 0
   m_Name: 1 (19)
   m_TagString: Paintable
@@ -4182,8 +4233,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000010100241580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010468362626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010107302580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011658436928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000010113909594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4196,8 +4312,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000010161236218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010992939562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000010256586932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4210,7 +4359,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010288560998
 MonoBehaviour:
@@ -4224,7 +4374,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010347157112
 MonoBehaviour:
@@ -4238,8 +4389,137 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000010436860014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012261700282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010477706578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010269046404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010516203106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011968792874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010586699792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010083534804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000010610099552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4252,8 +4532,137 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000010704983622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014025560080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010772259082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012720788354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010787372550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014131509278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010805020926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010041144542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000010817312882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4266,7 +4675,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010829564678
 MonoBehaviour:
@@ -4280,8 +4690,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000010869621592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010111339800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010888102864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010934612184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000010900250172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010734704614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000010927218816
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4294,8 +4801,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000010948181686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010842344156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000010986106536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4308,8 +4848,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000011021487254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012320169550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000011050307898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013835101394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000011053087308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013937828660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000011068536004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4322,7 +4959,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011078386822
 MonoBehaviour:
@@ -4336,7 +4974,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011094974376
 MonoBehaviour:
@@ -4350,8 +4989,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000011187351786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012440412412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000011240730710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011626607432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000011259785550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4364,7 +5068,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011305732118
 MonoBehaviour:
@@ -4378,8 +5083,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000011363302000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012993643746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000011446627490
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4392,7 +5130,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011512297590
 MonoBehaviour:
@@ -4406,7 +5145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011529026086
 MonoBehaviour:
@@ -4420,8 +5160,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000011533377026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012446536524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000011754387218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011706250026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000011870280696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010947602878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000011907055168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4434,8 +5271,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000011964485342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013193557370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000012005471470
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4448,7 +5318,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012029625068
 MonoBehaviour:
@@ -4462,7 +5333,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012032978294
 MonoBehaviour:
@@ -4476,8 +5348,169 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000012087445362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010537842814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000012131740884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011839939528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000012162801854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010143801140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000012166221812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010654931462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000012167296800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012183037848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000012167552976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4490,7 +5523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012179942628
 MonoBehaviour:
@@ -4504,8 +5538,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000012213135744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013692907268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000012238812594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4518,7 +5585,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012258591294
 MonoBehaviour:
@@ -4532,7 +5600,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012277750372
 MonoBehaviour:
@@ -4546,8 +5615,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000012304150116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012384221324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000012355159202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4560,7 +5662,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012381647758
 MonoBehaviour:
@@ -4574,7 +5677,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012472940732
 MonoBehaviour:
@@ -4588,8 +5692,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000012510034038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011854720704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000012534822108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4602,8 +5739,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000012578047272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012100435274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000012587284138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011509425746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000012669432614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4616,8 +5818,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000012670342184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010640186120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000012687080306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4630,8 +5865,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000012852877908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012519237780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000012923841520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4644,7 +5912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012942128036
 MonoBehaviour:
@@ -4658,8 +5927,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000012977725716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011210028108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000013008285566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4672,7 +5974,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013083256904
 MonoBehaviour:
@@ -4686,8 +5989,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000013119439422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010390193568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000013159102452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011516440666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000013181994330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4700,8 +6068,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000013202534748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010316227686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000013255611214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012221733142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000013290955546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4714,7 +6147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013338937018
 MonoBehaviour:
@@ -4728,7 +6162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013370144042
 MonoBehaviour:
@@ -4742,7 +6177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013427521330
 MonoBehaviour:
@@ -4756,7 +6192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013469877746
 MonoBehaviour:
@@ -4770,7 +6207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013603315088
 MonoBehaviour:
@@ -4784,8 +6222,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000013614674648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012729977210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000013618900854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012704582358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000013668854214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4798,7 +6301,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013705956872
 MonoBehaviour:
@@ -4812,8 +6316,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000013793035260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013013380944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000013822632348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4826,7 +6363,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013831277580
 MonoBehaviour:
@@ -4840,7 +6378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013846503022
 MonoBehaviour:
@@ -4854,8 +6393,137 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000013879413064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010759485438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000013885659076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012340229608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000013888828576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012069154634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000014016653844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013371581398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000014073217350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4868,7 +6536,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014092753552
 MonoBehaviour:
@@ -4882,5 +6551,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teamInControl: 4
-  test: 0
+  maxPaintWeight: 100
+  scoreWeight: 1
   testHitTeam: 4
+--- !u!114 &114000014182132036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012343628630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000014241065330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014283378546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
