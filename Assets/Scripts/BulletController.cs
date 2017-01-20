@@ -17,7 +17,7 @@ public class BulletController : MonoBehaviour {
     {
         if(col.gameObject.tag == "Paintable")
         {
-            col.gameObject.GetComponent<PaintableObject>().HitObject(team, damage);
+            col.gameObject.GetComponent<PaintableObject>().CmdHitObject(team, damage);
             Destroy(gameObject);
         }
         NetworkPlayer NP = col.gameObject.GetComponent<NetworkPlayer>();
