@@ -15,6 +15,10 @@ public class FPSController : NetworkBehaviour
     public float crouchModifier;
     [SyncVar]
     public bool crouching = false;
+    [SyncVar]
+    public float speed;
+    [SyncVar]
+    public bool jumping = false;
 
     private Rigidbody rigidBody;
     private bool grounded = false;
@@ -55,7 +59,7 @@ public class FPSController : NetworkBehaviour
             moveVelocity = Vector3.ProjectOnPlane(moveVelocity, collisionNormal);
             moveVelocity *= moveSpeed * (CrossPlatformInputManager.GetButton("Sprint") ? sprintModifier : 1f);
 
-            transform.FindChild("Model").GetComponent<Animator>().SetFloat("Speed", moveVelocity.magnitude);
+            CmdSetSpeed(moveVelocity.magnitude);
 
             Vector3 newVelocity = rigidBody.velocity;
             newVelocity.x = moveVelocity.x;
@@ -64,7 +68,11 @@ public class FPSController : NetworkBehaviour
             if (CrossPlatformInputManager.GetButtonDown("Jump") && grounded)
             {
                 newVelocity.y = jumpSpeed;
-                transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Jump");
+                CmdSetJumping(true);
+            }
+            else
+            {
+                CmdSetJumping(false);
             }
 
             rigidBody.velocity = newVelocity;
@@ -84,7 +92,12 @@ public class FPSController : NetworkBehaviour
                 crouching = false;
                 CmdSetCrouch(crouching);
             }
-            transform.FindChild("Model").GetComponent<Animator>().SetBool("Crouching", crouching);
+        }
+
+        transform.FindChild("Model").GetComponent<Animator>().SetFloat("Speed", speed);
+        if (jumping)
+        {
+            transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Jump");
         }
 
         if (crouching)
@@ -107,6 +120,7 @@ public class FPSController : NetworkBehaviour
                                                                     cameraPosition - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
         }
+        transform.FindChild("Model").GetComponent<Animator>().SetBool("Crouching", crouching);
 
     }
 
@@ -124,6 +138,18 @@ public class FPSController : NetworkBehaviour
     //        }
     //    }
     //}
+
+    [Command]
+    void CmdSetSpeed(float speed)
+    {
+        this.speed = speed;
+    }
+
+    [Command]
+    void CmdSetJumping(bool jumping)
+    {
+        this.jumping = jumping;
+    }
 
     void OnApplicationFocus(bool focus)
     {
