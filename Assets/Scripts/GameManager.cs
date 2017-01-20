@@ -26,22 +26,37 @@ public class GameManager : MonoBehaviour
     {
         if (player.GetComponent<NetworkPlayer>().team == Team.BlueTeam)
         {
-            Vector3 spawnPos = GameObject.FindGameObjectWithTag("BlueSpawn").transform.position;
+            Vector3 spawnPos = GameObject.Find("Blue Team").transform.position;
             float randX = Random.Range(-2.5f, 2.5f);
             float randZ = Random.Range(-2.5f, 2.5f);
             spawnPos.x += randX;
             spawnPos.z += randZ;
             player.transform.position = spawnPos;
+            player.GetComponent<PlayerHealth>().currentHealth = 100;
+            player.GetComponent<GunController>().AmmoRefill();
 
         }
         else if (player.GetComponent<NetworkPlayer>().team == Team.RedTeam)
         {
-            Vector3 spawnPos = GameObject.FindGameObjectWithTag("RedSpawn").transform.position;
+            Vector3 spawnPos = GameObject.Find("Red Team").transform.position;
             float randX = Random.Range(-2.5f, 2.5f);
             float randZ = Random.Range(-2.5f, 2.5f);
             spawnPos.x += randX;
             spawnPos.z += randZ;
             player.transform.position = spawnPos;
+            player.GetComponent<PlayerHealth>().currentHealth = 100;
+            player.GetComponent<GunController>().AmmoRefill();
+        }
+        else if(player.GetComponent<NetworkPlayer>().team == Team.NoTeam)
+        {
+            Vector3 spawnPos = GameObject.Find("No Team").transform.position;
+            float randX = Random.Range(-2.5f, 2.5f);
+            float randZ = Random.Range(-2.5f, 2.5f);
+            spawnPos.x += randX;
+            spawnPos.z += randZ;
+            player.transform.position = spawnPos;
+            player.GetComponent<PlayerHealth>().currentHealth = 100;
+            player.GetComponent<GunController>().AmmoRefill();
         }
     }
 
@@ -62,8 +77,6 @@ public class GameManager : MonoBehaviour
         }
         
         Spawn(player);
-        player.GetComponent<PlayerHealth>().currentHealth = 100;
-        player.GetComponent<GunController>().AmmoRefill();
         player.GetComponentInChildren<Camera>().enabled = true;
         player.GetComponent<FPSController>().isDead = false;
     }
