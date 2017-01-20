@@ -17,8 +17,14 @@ public class FPSController : NetworkBehaviour
     public bool crouching = false;
     [SyncVar]
     public float speed;
-    [SyncVar]
-    public bool jumping = false;
+
+    private delegate void JumpEvent();
+    [SyncEvent]
+    private event JumpEvent EventOnJump;
+
+    private delegate void AmmoRefillEvent();
+    [SyncEvent]
+    private event AmmoRefillEvent EventOnAmmoRefill;
 
     private Rigidbody rigidBody;
     private bool grounded = false;
@@ -31,6 +37,7 @@ public class FPSController : NetworkBehaviour
 
     int health;
     int respawnTime;
+    private bool localCrouching = false;
     
     void Start()
     {
@@ -45,6 +52,15 @@ public class FPSController : NetworkBehaviour
         capsuleHeight = GetComponent<CapsuleCollider>().height;
         cameraPosition = firstPersonCamera.transform.localPosition.y + capsuleHeight / 2f;
         gun = GetComponent<GunController>();
+
+        EventOnJump += OnJump;
+        EventOnAmmoRefill += OnAmmoRefill;
+    }
+
+    void Destroy()
+    {
+        EventOnJump -= OnJump;
+        EventOnAmmoRefill -= OnAmmoRefill;
     }
 
     void FixedUpdate()
@@ -68,11 +84,7 @@ public class FPSController : NetworkBehaviour
             if (CrossPlatformInputManager.GetButtonDown("Jump") && grounded)
             {
                 newVelocity.y = jumpSpeed;
-                CmdSetJumping(true);
-            }
-            else
-            {
-                CmdSetJumping(false);
+                CmdJump();
             }
 
             rigidBody.velocity = newVelocity;
@@ -82,25 +94,20 @@ public class FPSController : NetworkBehaviour
             transform.Rotate(Vector3.up * CrossPlatformInputManager.GetAxis("LookHorizontal") * lookSensitivity.x * Time.deltaTime);
             transform.Rotate(Vector3.up * CrossPlatformInputManager.GetAxis("GamePadLookHorizontal") * gamepadLookSensitivity.x * lookSensitivity.x * Time.deltaTime);
 
-            if (CrossPlatformInputManager.GetButton("Crouch") && (grounded || rigidBody.velocity.y < 0f))
+            if (CrossPlatformInputManager.GetButton("Crouch") && !CrossPlatformInputManager.GetButton("Sprint"))
             {
-                crouching = true;
-                CmdSetCrouch(crouching);
+                localCrouching = true;
             }
             else
             {
-                crouching = false;
-                CmdSetCrouch(crouching);
+                localCrouching = false;
             }
+            CmdSetCrouch(localCrouching);
         }
 
         transform.FindChild("Model").GetComponent<Animator>().SetFloat("Speed", speed);
-        if (jumping)
-        {
-            transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Jump");
-        }
 
-        if (crouching)
+        if ((isLocalPlayer && localCrouching) || crouching)
         {
             GetComponent<CapsuleCollider>().height = capsuleHeight / crouchModifier;
             GetComponent<CapsuleCollider>().center = new Vector3(GetComponent<CapsuleCollider>().center.x,
@@ -120,8 +127,7 @@ public class FPSController : NetworkBehaviour
                                                                     cameraPosition - (capsuleHeight / 2f),
                                                                     firstPersonCamera.transform.localPosition.z);
         }
-        transform.FindChild("Model").GetComponent<Animator>().SetBool("Crouching", crouching);
-
+        transform.FindChild("Model").GetComponent<Animator>().SetBool("Crouching", (isLocalPlayer && localCrouching) || crouching);
     }
 
     //void OnCollisionStay(Collision collision)
@@ -139,6 +145,16 @@ public class FPSController : NetworkBehaviour
     //    }
     //}
 
+    void OnJump()
+    {
+        transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Jump");
+    }
+
+    void OnAmmoRefill()
+    {
+        transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Reload");
+    }
+
     [Command]
     void CmdSetSpeed(float speed)
     {
@@ -146,9 +162,15 @@ public class FPSController : NetworkBehaviour
     }
 
     [Command]
-    void CmdSetJumping(bool jumping)
+    void CmdJump()
     {
-        this.jumping = jumping;
+        EventOnJump();
+    }
+
+    [Command]
+    void CmdAmmoRefill()
+    {
+        EventOnAmmoRefill();
     }
 
     void OnApplicationFocus(bool focus)
@@ -184,7 +206,7 @@ public class FPSController : NetworkBehaviour
             {
                 print("Reloading");
                 gun.AmmoRefill();
-                transform.FindChild("Model").GetComponent<Animator>().SetTrigger("Reload");
+                CmdAmmoRefill();
             }
         }
     }
