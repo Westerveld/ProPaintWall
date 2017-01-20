@@ -1,50 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Networking;
-class TeamScores
-{
-    [SyncVar]
-    private int _m_score;
 
-    public int m_score
-    {
-        get
-        {
-            return _m_score;
-        }
-        set
-        {
-            if (value > 0)
-            {
-                _m_score = value;
-            }
-            else
-            {
-                _m_score = 0;
-            }
-        }
-    }
-    
-    public Team m_team;
-
-    public TeamScores(Team team)
-    {
-        this.m_team = team;
-        this._m_score = 0;
-    }
-
-    public void AddToScore(int score)
-    {
-        m_score = m_score + score;
-        
-    }
-
-    [Command]
-    public void CmdSetScore(int score)
-    {
-        m_score = score;
-    }
-}
 
 public class PaintableObject : NetworkBehaviour {
 
@@ -53,6 +10,11 @@ public class PaintableObject : NetworkBehaviour {
     [SyncVar]
     int currentPaintWeight = 0;
 
+    public delegate void UpdatePaintObjectCount(int addToRed, int addToBlue);
+   [SyncEvent]
+    public static event UpdatePaintObjectCount EventUpdatePaintObjectCount;
+
+    Material mat;
 
     public int maxPaintWeight = 100;
     //public int targetPaintWeight = 50;
@@ -66,15 +28,24 @@ public class PaintableObject : NetworkBehaviour {
         pom = GameObject.FindGameObjectWithTag("POM").GetComponent<PaintableObjectManager>();
     }
 
-    void UpdateMaterial()
+    
+    void CmdUpdateMaterial()
     {
-        this.GetComponent<MeshRenderer>().material = pom.GetMateralForTeam(teamInControl);
+        mat = pom.GetMateralForTeam(teamInControl);
+        this.GetComponent<MeshRenderer>().material = mat;
+    }
+
+    void Update()
+    {
+        CmdUpdateMaterial();
+     
     }
 
     //Deals with this object being hit with paint. 
     [Command]
     public void CmdHitObject(Team teamThatHitThisObject, int hitPower)
     {
+        Team currentTeam = teamInControl;
         //Ensure there is a team.
         if (teamThatHitThisObject != Team.RedTeam || teamThatHitThisObject != Team.BlueTeam)
         {
@@ -106,8 +77,46 @@ public class PaintableObject : NetworkBehaviour {
         {
             this.teamInControl = Team.BlueTeam;
         }
-        UpdateMaterial();
-        pom.UpdateTeamPaintCount();
+
+
+
+
+
+
+
+
+
+
+        
+        if(teamInControl != currentTeam)
+        {
+            if(teamInControl == Team.RedTeam)
+            {
+                EventUpdatePaintObjectCount(1,-1);
+
+            }
+
+            if (teamInControl == Team.BlueTeam)
+            {
+                EventUpdatePaintObjectCount(-1,1);
+
+            }
+        }
+        else if(currentTeam == Team.NoTeam)
+        {
+            if(teamInControl == Team.RedTeam)
+            {
+                EventUpdatePaintObjectCount(1, 0);
+            }
+            if (teamInControl == Team.BlueTeam)
+            {
+                EventUpdatePaintObjectCount(0, 1);
+            }
+        }
+        
+       
+      
+       
         
     }
    
