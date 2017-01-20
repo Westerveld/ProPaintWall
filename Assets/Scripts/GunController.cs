@@ -11,12 +11,13 @@ public class GunController : NetworkBehaviour
 
     PauseMenu pm;
     Team team;
+    FPSController fps;
     void Start()
     {
         ammo = 30;
         lastTime = 0;
         pm = GameObject.FindGameObjectWithTag("GM").GetComponent<PauseMenu>();
-
+        fps = GetComponent<FPSController>();
         
     }
 
@@ -28,7 +29,7 @@ public class GunController : NetworkBehaviour
             return;
         }
 
-        if (Input.GetButton("Fire1") && ammo > 0 && Time.time > lastTime + interval && !pm.paused)
+        if (Input.GetButton("Fire1") && ammo > 0 && Time.time > lastTime + interval && !pm.paused && !fps.inSpawn)
         {
             print("Fire");
             CmdFirePaintBall(transform.FindChild("FirstPersonCharacter").forward);

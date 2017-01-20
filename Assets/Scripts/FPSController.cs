@@ -35,6 +35,8 @@ public class FPSController : NetworkBehaviour
     private float cameraPosition;
     private GunController gun;
 
+    public bool inSpawn = false;
+
     int health;
     int respawnTime;
     private bool localCrouching = false;
@@ -208,6 +210,18 @@ public class FPSController : NetworkBehaviour
                 gun.AmmoRefill();
                 CmdAmmoRefill();
             }
+        }
+        if(col.gameObject.tag == "BlueSpawn" || col.gameObject.tag == "RedSpawn")
+        {
+            inSpawn = true;
+        }
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        if(col.gameObject.tag == "BlueSpawn" || col.gameObject.tag == "RedSpawn")
+        {
+            inSpawn = false;
         }
     }
 

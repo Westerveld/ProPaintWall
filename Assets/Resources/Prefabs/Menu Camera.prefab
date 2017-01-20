@@ -763,6 +763,7 @@ MonoBehaviour:
   playerName: {fileID: 114000010560331918}
   test: {fileID: 114000010115454794}
   localPlayer: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!114 &114000011817448666
 MonoBehaviour:
   m_ObjectHideFlags: 1

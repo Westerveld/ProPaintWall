@@ -8,6 +8,7 @@ public class NetworkPlayer : NetworkBehaviour
     AudioListener audioListener;
     FPSController fpsController;
     
+    
     bool inGame = false;
 
     TextMesh tm;
@@ -24,7 +25,7 @@ public class NetworkPlayer : NetworkBehaviour
     void Start()
     {
         cam = GameObject.FindGameObjectWithTag("Lobby").GetComponent<Camera>();
-     tm = gameObject.GetComponentInChildren<TextMesh>();
+        tm = gameObject.GetComponentInChildren<TextMesh>();
         if (isLocalPlayer)
         {
             cam.GetComponent<LobbyUISetup>().localPlayer = this;

@@ -12,6 +12,8 @@ TagManager:
   - Ammo
   - PlayerName
   - PlayerTeam
+  - RedSpawn
+  - BlueSpawn
   layers:
   - Default
   - TransparentFX

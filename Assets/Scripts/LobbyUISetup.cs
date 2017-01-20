@@ -5,12 +5,11 @@ public class LobbyUISetup : MonoBehaviour {
     public Text playerName, test;
     Team teamToJoin;
     public NetworkPlayer localPlayer;
-
+    public GameManager gm;
 
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 
     public void JoinRedTeam()
@@ -32,6 +31,7 @@ public class LobbyUISetup : MonoBehaviour {
     {
         localPlayer.CmdUpdateName(playerName.text);
         localPlayer.CmdUpdateTeam(teamToJoin);
+        gm.Spawn(localPlayer.gameObject);
     }
 
 
