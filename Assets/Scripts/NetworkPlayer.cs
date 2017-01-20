@@ -24,16 +24,28 @@ public class NetworkPlayer : NetworkBehaviour
     // Use this for initialization
     void Start()
     {
-        cam = GameObject.FindGameObjectWithTag("Lobby").GetComponent<Camera>();
         tm = gameObject.GetComponentInChildren<TextMesh>();
-        if (isLocalPlayer)
+        cam = GameObject.Find("Menu Camera").GetComponent<Camera>();
+        if(cam != null)
         {
-            cam.GetComponent<LobbyUISetup>().localPlayer = this;
+            if (isLocalPlayer)
+            {
+                cam.GetComponent<LobbyUISetup>().localPlayer = this;
+            }
         }
     }
 
     void Update()
     {
+        if(cam == null)
+        {
+            cam = GameObject.Find("Menu Camera").GetComponent<Camera>();
+            if (isLocalPlayer)
+            {
+                cam.GetComponent<LobbyUISetup>().localPlayer = this;
+            }
+        }
+
         if (inGame)
         {
             GetComponent<FPSController>().enabled = true;
