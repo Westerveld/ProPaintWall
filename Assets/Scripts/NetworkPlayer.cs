@@ -11,10 +11,15 @@ public class NetworkPlayer : NetworkBehaviour
     bool inGame = false;
 
     TextMesh tm;
+
     [SyncVar]
     public Team team;
+
     [SyncVar]
     string playerName;
+
+    
+
     // Use this for initialization
     void Start()
     {
@@ -59,7 +64,8 @@ public class NetworkPlayer : NetworkBehaviour
         }
 
         Begin();
-        tm.text = playerName;
+        // tm.text = playerName;
+        tm.text = team.ToString();
 
     }
 
@@ -68,14 +74,12 @@ public class NetworkPlayer : NetworkBehaviour
    public void CmdUpdateTeam(Team t)
     {
         this.team = t;
-        
     }
 
     [Command]
     public void CmdUpdateName(string n)
     {
         this.playerName = n;
-       
     }
    
     void Begin()
