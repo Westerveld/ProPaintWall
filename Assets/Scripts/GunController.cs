@@ -41,7 +41,7 @@ public class GunController : NetworkBehaviour
     void CmdFirePaintBall(Vector3 dir)
     {
         print("CMDFIre");
-        GameObject go =  (GameObject)Instantiate(paintballPrefab, transform.FindChild("Spawn Point").position, Quaternion.identity);
+        GameObject go =  (GameObject)Instantiate(paintballPrefab, transform.FindChild("Spawn Point").position, transform.FindChild("Spawn Point").rotation);
         go.GetComponent<Rigidbody>().velocity = dir * bulletForce;
         //go.GetComponent<Rigidbody>().AddForce(transform.FindChild("FirstPersonCharacter").forward * bulletForce);
         go.GetComponent<BulletController>().team = gameObject.GetComponent<NetworkPlayer>().team;
