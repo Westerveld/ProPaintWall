@@ -4,6 +4,7 @@ using UnityEngine.Networking;
 
 
 public class PaintableObject : NetworkBehaviour {
+    public Material redTeam, blueTeam;
 
     [SyncVar]
     public Team teamInControl = Team.NoTeam; //The current team in control of this object. ie who has it painted. 
@@ -14,7 +15,6 @@ public class PaintableObject : NetworkBehaviour {
    [SyncEvent]
     public static event UpdatePaintObjectCount EventUpdatePaintObjectCount;
 
-    Material mat;
 
     public int maxPaintWeight = 100;
     //public int targetPaintWeight = 50;
@@ -25,14 +25,21 @@ public class PaintableObject : NetworkBehaviour {
     // Use this for initialization
     void Start () {
         //Set PaintableObjectManager.
-        pom = GameObject.FindGameObjectWithTag("POM").GetComponent<PaintableObjectManager>();
+    
     }
 
     
     void CmdUpdateMaterial()
     {
-        mat = pom.GetMateralForTeam(teamInControl);
-        this.GetComponent<MeshRenderer>().material = mat;
+       if(teamInControl == Team.RedTeam)
+        {
+            this.GetComponent<MeshRenderer>().material = redTeam;
+        }
+       else if (teamInControl == Team.BlueTeam)
+        {
+            this.GetComponent<MeshRenderer>().material = blueTeam;
+        }
+       
     }
 
     void Update()
@@ -87,8 +94,10 @@ public class PaintableObject : NetworkBehaviour {
 
 
 
-        
-        if(teamInControl != currentTeam)
+
+
+
+     if(teamInControl != currentTeam && currentTeam!=Team.NoTeam)
         {
             if(teamInControl == Team.RedTeam)
             {

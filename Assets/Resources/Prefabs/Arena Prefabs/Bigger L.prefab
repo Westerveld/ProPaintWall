@@ -12848,10 +12848,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010029381898
 MonoBehaviour:
@@ -12864,10 +12865,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010034252866
 MonoBehaviour:
@@ -12880,10 +12882,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010037932198
 MonoBehaviour:
@@ -12896,10 +12899,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010107851844
 MonoBehaviour:
@@ -12912,10 +12916,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010127916164
 MonoBehaviour:
@@ -12928,10 +12933,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010230110612
 MonoBehaviour:
@@ -12944,10 +12950,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010233530256
 MonoBehaviour:
@@ -12960,10 +12967,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010249397630
 MonoBehaviour:
@@ -12976,10 +12984,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010272968306
 MonoBehaviour:
@@ -12992,10 +13001,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010285781696
 MonoBehaviour:
@@ -13008,10 +13018,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010293680508
 MonoBehaviour:
@@ -13024,10 +13035,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010325691268
 MonoBehaviour:
@@ -13040,10 +13052,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010331520138
 MonoBehaviour:
@@ -13056,10 +13069,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010379460496
 MonoBehaviour:
@@ -13072,10 +13086,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010431683562
 MonoBehaviour:
@@ -13088,10 +13103,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 50
-  targetPaintWeight: 25
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010442157834
 MonoBehaviour:
@@ -13104,10 +13120,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010499258442
 MonoBehaviour:
@@ -13120,10 +13137,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010545084570
 MonoBehaviour:
@@ -13136,10 +13154,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010546933378
 MonoBehaviour:
@@ -13152,10 +13171,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010616609236
 MonoBehaviour:
@@ -13168,10 +13188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010617193718
 MonoBehaviour:
@@ -13196,10 +13217,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010624954552
 MonoBehaviour:
@@ -13224,10 +13246,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 50
-  targetPaintWeight: 25
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010632044946
 MonoBehaviour:
@@ -13240,10 +13263,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010667501762
 MonoBehaviour:
@@ -13256,10 +13280,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010672978494
 MonoBehaviour:
@@ -13272,10 +13297,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010693779352
 MonoBehaviour:
@@ -13288,10 +13314,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010750648886
 MonoBehaviour:
@@ -13304,10 +13331,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010763875360
 MonoBehaviour:
@@ -13320,10 +13348,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010778193536
 MonoBehaviour:
@@ -13336,10 +13365,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010778336292
 MonoBehaviour:
@@ -13352,10 +13382,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010871205018
 MonoBehaviour:
@@ -13368,10 +13399,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010928399230
 MonoBehaviour:
@@ -13384,10 +13416,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000010945493798
 MonoBehaviour:
@@ -13400,10 +13433,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011003129996
 MonoBehaviour:
@@ -13416,10 +13450,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011013326566
 MonoBehaviour:
@@ -13432,10 +13467,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011016783740
 MonoBehaviour:
@@ -13448,10 +13484,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011017537908
 MonoBehaviour:
@@ -13464,10 +13501,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011030114454
 MonoBehaviour:
@@ -13480,10 +13518,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011032594896
 MonoBehaviour:
@@ -13496,10 +13535,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011038632390
 MonoBehaviour:
@@ -13512,10 +13552,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011052403522
 MonoBehaviour:
@@ -13528,10 +13569,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011072579936
 MonoBehaviour:
@@ -13544,10 +13586,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011157237566
 MonoBehaviour:
@@ -13560,10 +13603,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011161692596
 MonoBehaviour:
@@ -13576,10 +13620,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011164100252
 MonoBehaviour:
@@ -13592,10 +13637,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011200071826
 MonoBehaviour:
@@ -13608,10 +13654,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011300337078
 MonoBehaviour:
@@ -13624,10 +13671,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011305077064
 MonoBehaviour:
@@ -13640,10 +13688,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011322364904
 MonoBehaviour:
@@ -13656,10 +13705,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011338480136
 MonoBehaviour:
@@ -13672,10 +13722,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 50
-  targetPaintWeight: 25
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011369253098
 MonoBehaviour:
@@ -13688,10 +13739,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011378258598
 MonoBehaviour:
@@ -13704,10 +13756,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011389243354
 MonoBehaviour:
@@ -13720,10 +13773,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011392089276
 MonoBehaviour:
@@ -13736,10 +13790,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011453921896
 MonoBehaviour:
@@ -13752,10 +13807,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011465607918
 MonoBehaviour:
@@ -13768,10 +13824,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011468446492
 MonoBehaviour:
@@ -13784,10 +13841,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011491821936
 MonoBehaviour:
@@ -13800,10 +13858,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011608711274
 MonoBehaviour:
@@ -13816,10 +13875,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011654505952
 MonoBehaviour:
@@ -13832,10 +13892,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011687638430
 MonoBehaviour:
@@ -13848,10 +13909,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011732184048
 MonoBehaviour:
@@ -13864,10 +13926,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011775348334
 MonoBehaviour:
@@ -13880,10 +13943,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011864318322
 MonoBehaviour:
@@ -13896,10 +13960,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011866293498
 MonoBehaviour:
@@ -13912,10 +13977,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011872389668
 MonoBehaviour:
@@ -13928,10 +13994,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011907094392
 MonoBehaviour:
@@ -13944,10 +14011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 50
-  targetPaintWeight: 25
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011948494660
 MonoBehaviour:
@@ -13960,10 +14028,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000011988676230
 MonoBehaviour:
@@ -13976,10 +14045,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012016770802
 MonoBehaviour:
@@ -13992,10 +14062,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012040329990
 MonoBehaviour:
@@ -14008,10 +14079,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012055487868
 MonoBehaviour:
@@ -14024,10 +14096,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012063035538
 MonoBehaviour:
@@ -14040,10 +14113,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012078488530
 MonoBehaviour:
@@ -14056,10 +14130,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012117490904
 MonoBehaviour:
@@ -14072,10 +14147,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012128504698
 MonoBehaviour:
@@ -14088,10 +14164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012134384594
 MonoBehaviour:
@@ -14104,10 +14181,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012251946458
 MonoBehaviour:
@@ -14120,10 +14198,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012252822852
 MonoBehaviour:
@@ -14136,10 +14215,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012298320248
 MonoBehaviour:
@@ -14152,10 +14232,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012315539306
 MonoBehaviour:
@@ -14168,10 +14249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012333959296
 MonoBehaviour:
@@ -14184,10 +14266,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012346203778
 MonoBehaviour:
@@ -14200,10 +14283,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012375318842
 MonoBehaviour:
@@ -14216,10 +14300,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012413486914
 MonoBehaviour:
@@ -14232,10 +14317,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012416593232
 MonoBehaviour:
@@ -14248,10 +14334,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012469622508
 MonoBehaviour:
@@ -14264,10 +14351,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012493902078
 MonoBehaviour:
@@ -14280,10 +14368,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012516709780
 MonoBehaviour:
@@ -14296,10 +14385,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012528762152
 MonoBehaviour:
@@ -14312,10 +14402,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012549871668
 MonoBehaviour:
@@ -14328,10 +14419,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012553197930
 MonoBehaviour:
@@ -14344,10 +14436,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012562854330
 MonoBehaviour:
@@ -14360,10 +14453,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012586966378
 MonoBehaviour:
@@ -14376,10 +14470,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012639998532
 MonoBehaviour:
@@ -14392,10 +14487,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012643425382
 MonoBehaviour:
@@ -14408,10 +14504,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012676014334
 MonoBehaviour:
@@ -14424,10 +14521,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012728509394
 MonoBehaviour:
@@ -14440,10 +14538,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 50
-  targetPaintWeight: 25
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012732404210
 MonoBehaviour:
@@ -14456,10 +14555,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012772954924
 MonoBehaviour:
@@ -14472,10 +14572,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012803202154
 MonoBehaviour:
@@ -14488,10 +14589,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012836728480
 MonoBehaviour:
@@ -14504,10 +14606,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012858635562
 MonoBehaviour:
@@ -14520,10 +14623,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012869714656
 MonoBehaviour:
@@ -14536,10 +14640,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 50
-  targetPaintWeight: 25
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012878974484
 MonoBehaviour:
@@ -14552,10 +14657,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012932444800
 MonoBehaviour:
@@ -14568,10 +14674,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012977787242
 MonoBehaviour:
@@ -14584,10 +14691,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000012984742144
 MonoBehaviour:
@@ -14600,10 +14708,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013048446958
 MonoBehaviour:
@@ -14616,10 +14725,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 50
-  targetPaintWeight: 25
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013087137338
 MonoBehaviour:
@@ -14632,10 +14742,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013107117238
 MonoBehaviour:
@@ -14648,10 +14759,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013153692140
 MonoBehaviour:
@@ -14664,10 +14776,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013209392896
 MonoBehaviour:
@@ -14680,10 +14793,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013225556566
 MonoBehaviour:
@@ -14696,10 +14810,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013322781094
 MonoBehaviour:
@@ -14712,10 +14827,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013353097674
 MonoBehaviour:
@@ -14728,10 +14844,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013370148646
 MonoBehaviour:
@@ -14744,10 +14861,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013373506240
 MonoBehaviour:
@@ -14760,10 +14878,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013374004934
 MonoBehaviour:
@@ -14776,10 +14895,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013423923974
 MonoBehaviour:
@@ -14792,10 +14912,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013467594200
 MonoBehaviour:
@@ -14808,10 +14929,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013477460978
 MonoBehaviour:
@@ -14824,10 +14946,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013497729946
 MonoBehaviour:
@@ -14840,10 +14963,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013525088206
 MonoBehaviour:
@@ -14856,10 +14980,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013540992542
 MonoBehaviour:
@@ -14872,10 +14997,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013618648516
 MonoBehaviour:
@@ -14888,10 +15014,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013620733804
 MonoBehaviour:
@@ -14904,10 +15031,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013623140300
 MonoBehaviour:
@@ -14920,10 +15048,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013650370114
 MonoBehaviour:
@@ -14936,10 +15065,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013653755452
 MonoBehaviour:
@@ -14952,10 +15082,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013690138220
 MonoBehaviour:
@@ -14968,10 +15099,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013713300536
 MonoBehaviour:
@@ -14984,10 +15116,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013722967168
 MonoBehaviour:
@@ -15000,10 +15133,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013752967782
 MonoBehaviour:
@@ -15016,10 +15150,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013798546240
 MonoBehaviour:
@@ -15032,10 +15167,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013811782082
 MonoBehaviour:
@@ -15048,10 +15184,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013813273816
 MonoBehaviour:
@@ -15064,10 +15201,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013846875460
 MonoBehaviour:
@@ -15080,10 +15218,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013874572024
 MonoBehaviour:
@@ -15096,10 +15235,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013877063234
 MonoBehaviour:
@@ -15112,10 +15252,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013893188632
 MonoBehaviour:
@@ -15128,10 +15269,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013902079448
 MonoBehaviour:
@@ -15144,10 +15286,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013907925202
 MonoBehaviour:
@@ -15160,10 +15303,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000013961117904
 MonoBehaviour:
@@ -15176,10 +15320,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014001468332
 MonoBehaviour:
@@ -15192,10 +15337,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014039951866
 MonoBehaviour:
@@ -15208,10 +15354,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014042795708
 MonoBehaviour:
@@ -15224,10 +15371,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014069108412
 MonoBehaviour:
@@ -15240,10 +15388,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014073932668
 MonoBehaviour:
@@ -15256,10 +15405,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014105629426
 MonoBehaviour:
@@ -15272,10 +15422,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014178419704
 MonoBehaviour:
@@ -15288,10 +15439,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014185467142
 MonoBehaviour:
@@ -15304,10 +15456,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014189944266
 MonoBehaviour:
@@ -15320,10 +15473,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014259017190
 MonoBehaviour:
@@ -15336,10 +15490,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
 --- !u!114 &114000014286921352
 MonoBehaviour:
@@ -15352,8 +15507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2912dc076b81e2b41a31677335c44281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redTeam: {fileID: 2100000, guid: 3fa10f799fc4ce94fa0c4074a44ce802, type: 2}
+  blueTeam: {fileID: 2100000, guid: fe58d10db584e464a81eb8b3b2d0b18b, type: 2}
   teamInControl: 4
   maxPaintWeight: 100
-  targetPaintWeight: 50
-  test: 0
+  scoreWeight: 1
   testHitTeam: 4
