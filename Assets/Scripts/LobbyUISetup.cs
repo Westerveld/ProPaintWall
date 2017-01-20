@@ -5,6 +5,9 @@ public class LobbyUISetup : MonoBehaviour {
     public Text playerName, test;
     Team teamToJoin;
     public NetworkPlayer localPlayer;
+
+
+
 	// Use this for initialization
 	void Start () {
 	
@@ -15,17 +18,14 @@ public class LobbyUISetup : MonoBehaviour {
         teamToJoin = Team.RedTeam;
     }
 
-    public void JoinGreenTeam()
-    {
-        teamToJoin = Team.GreenTeam;
-    }
     public void JoinBlueTeam()
     {
         teamToJoin = Team.BlueTeam;
     }
-    public void JoinYellowTeam()
+
+    public void AutoFill()
     {
-        teamToJoin = Team.YellowTeam;
+
     }
 
     public void Ready()

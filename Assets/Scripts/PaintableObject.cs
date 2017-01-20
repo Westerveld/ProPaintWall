@@ -50,28 +50,20 @@ public class PaintableObject : NetworkBehaviour {
 
     [SyncVar]
     public Team teamInControl = Team.NoTeam; //The current team in control of this object. ie who has it painted. 
+    [SyncVar]
+    int currentPaintWeight = 0;
+
 
     public int maxPaintWeight = 100;
-    public int targetPaintWeight = 50;
+    //public int targetPaintWeight = 50;
     public int scoreWeight = 1;
-    TeamScores[] teamScores = new TeamScores[4] { new TeamScores(Team.RedTeam), new TeamScores(Team.GreenTeam), new TeamScores(Team.BlueTeam), new TeamScores(Team.YellowTeam) } ;
     PaintableObjectManager pom; // Instance of PaintableObjectManager.
-    //<Testing>
-    public bool test;
+  
     public Team testHitTeam = Team.NoTeam;
     // Use this for initialization
     void Start () {
         //Set PaintableObjectManager.
         pom = GameObject.FindGameObjectWithTag("POM").GetComponent<PaintableObjectManager>();
-    }
-
-    void Update()
-    {
-        if(test)
-        {
-            HitObject(testHitTeam, 10);
-           test = false;
-        }
     }
 
     void UpdateMaterial()
@@ -80,60 +72,43 @@ public class PaintableObject : NetworkBehaviour {
     }
 
     //Deals with this object being hit with paint. 
-    public void HitObject(Team teamThatHitThisObject, int hitPower)
+    [Command]
+    public void CmdHitObject(Team teamThatHitThisObject, int hitPower)
     {
         //Ensure there is a team.
-        if (teamThatHitThisObject != Team.NoTeam)
+        if (teamThatHitThisObject != Team.RedTeam || teamThatHitThisObject != Team.BlueTeam)
         {
-            
-            foreach (TeamScores team in teamScores)
-            {   if (team.m_team == teamThatHitThisObject)
-                {
-                   
-                    // team.AddToScore(hitPower);
-                    team.CmdSetScore(hitPower + team.m_score);
-                    if (team.m_score > maxPaintWeight)
-                    {
-                        team.CmdSetScore(maxPaintWeight);
-                    }
-                }
-                else
-                {
-                 
-                    team.AddToScore(-hitPower);
-                    if (team.m_score < 0)
-                    {
-                        team.CmdSetScore(0);
-                    }
-                }
-         }
-            CmdCalculateControlOfThisObject();
-
-            pom.UpdateTeamPaintCount();
-        }
-    }
-    [Command]
-    void CmdCalculateControlOfThisObject()
-    {
-        Team teamOnTop = Team.NoTeam;
-        int topScore = 0;
-        for (int i = 0; i < teamScores.Length; i++)
-        {
-            if (teamScores[i].m_score > topScore)
+        if(teamThatHitThisObject == Team.RedTeam)
             {
-                teamOnTop = teamScores[i].m_team;
-                topScore = teamScores[i].m_score;
-            }
+                this.currentPaintWeight += hitPower;
+                if(currentPaintWeight > maxPaintWeight)
+                {
+                    this.currentPaintWeight = maxPaintWeight;
+                }
+            }   
+        else if(teamThatHitThisObject == Team.BlueTeam)
+            {
+                this.currentPaintWeight -= hitPower;
+                if(currentPaintWeight < maxPaintWeight*-1)
+                {
+                  this.currentPaintWeight = maxPaintWeight*-1;
+                }
+            } 
+          
         }
 
-        if(topScore >= targetPaintWeight)
+        if(currentPaintWeight > 0)
         {
-            teamInControl = teamOnTop;
-            UpdateMaterial();
+            this.teamInControl = Team.RedTeam;
+           
         }
         else
         {
-            teamInControl = Team.NoTeam;
+            this.teamInControl = Team.BlueTeam;
         }
+        UpdateMaterial();
+        pom.UpdateTeamPaintCount();
+        
     }
+   
 }
